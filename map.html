@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibum.com - Ski Resort Map</title>
+    <link rel="stylesheet" href="style_map.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Search Container -->
+    <div id="search-container">
+        <input 
+            type="text" 
+            id="search-bar" 
+            placeholder="Type to search..." 
+            autocomplete="off"
+        />
+        <div id="search-results"></div>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map-container">
+        <div id="map"></div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Global variable to store resort data
+        let resorts = [];
+
+        // Fetch the resort data from the CSV
+        async function loadResortData() {
+            const response = await fetch('./resorts_with_coords_cleaned.csv');
+            const csvData = await response.text();
+
+            // Use PapaParse to handle the CSV parsing
+            Papa.parse(csvData, {
+                header: true,
+                skipEmptyLines: true,
+                complete: function (results) {
+                    resorts = results.data; // Store resort data globally
+                    console.log('Resort data loaded:', resorts);
+                }
+            });
+        }
+
+        // Search functionality
+        document.getElementById('search-bar').addEventListener('input', function () {
+            const query = this.value.toLowerCase();
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = ''; // Clear previous results
+
+            if (query.length > 2) { // Start showing suggestions after 2 characters
+                const filteredResorts = resorts.filter(resort =>
+                    resort.ResortName.toLowerCase().includes(query)
+                );
+
+                filteredResorts.forEach(resort => {
+                    const resultDiv = document.createElement('div');
+                    resultDiv.textContent = resort.ResortName;
+                    resultDiv.dataset.latitude = resort.Latitude;
+                    resultDiv.dataset.longitude = resort.Longitude;
+
+                    // Add click event to zoom to location
+                    resultDiv.addEventListener('click', function () {
+                        const lat = parseFloat(this.dataset.latitude);
+                        const lng = parseFloat(this.dataset.longitude);
+
+                        map.flyTo({ center: [lng, lat], zoom: 10 });
+                        resultsContainer.style.display = 'none'; // Hide results
+                    });
+
+                    resultsContainer.appendChild(resultDiv);
+                });
+
+                resultsContainer.style.display = 'block'; // Show results
+            } else {
+                resultsContainer.style.display = 'none'; // Hide results
+            }
+        });
+
+        // Load the resort data
+        loadResortData();
+
+        // Set your Mapbox Access Token
+        mapboxgl.accessToken = 'pk.eyJ1Ijoiam5yNDciLCJhIjoiY200azAzNHo3MGs5MTJpcTRxejE1cmp0NSJ9.YpIGfQ1PZljzCJ7EhCjz4A';
+
+        // Initialize the Map
+        const map = new mapboxgl.Map({
+            container: 'map', // ID of the container to render the map in
+            style: 'mapbox://styles/mapbox/outdoors-v11', // Updated Mapbox style
+            center: [-106.48, 39.63], // Centered around Colorado initially
+            zoom: 5 // Initial zoom level
+        });
+
+        // Function to fetch weather data from RapidAPI
+        async function fetchSnowData(resortName, marker, passAffiliation) {
+            const cleanName = resortName.trim().replace(/\s+/g, '-'); // Replace spaces with dashes
+            const proxyUrl = `https://ski-resort-forecast.p.rapidapi.com/${encodeURIComponent(cleanName)}/snowConditions?units=i`;
+
+            console.log(`Fetching weather data for ${resortName} from: ${proxyUrl}`);
+
+            try {
+                const response = await fetch(proxyUrl, {
+                    method: 'GET',
+                    headers: {
+                        'X-RapidAPI-Key': 'c846753c0cmsh011a5ca3fc881f1p1f142fjsn56095a7e72cb',
+                        'X-RapidAPI-Host': 'ski-resort-forecast.p.rapidapi.com',
+                    },
+                });
+
+                if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
+
+                const data = await response.json();
+
+                console.log(`Weather data for ${resortName}:`, data);
+
+                // Update the popup with both pass affiliation and weather data
+                const popupContent = `
+                    <div class="popup-content">
+                        <h3>${resortName}</h3>
+                        <p><strong>Pass Affiliation:</strong> ${passAffiliation || 'Independent'}</p>
+                        <p><strong>Top Snow Depth:</strong> ${data.topSnowDepth || 'N/A'}</p>
+                        <p><strong>Bottom Snow Depth:</strong> ${data.botSnowDepth || 'N/A'}</p>
+                        <p><strong>Fresh Snowfall:</strong> ${data.freshSnowfall || 'N/A'}</p>
+                        <p><strong>Last Snowfall Date:</strong> ${data.lastSnowfallDate || 'N/A'}</p>
+                    </div>
+                `;
+                marker.getPopup().setHTML(popupContent);
+            } catch (error) {
+                console.error(`Error fetching weather data for ${resortName}:`, error);
+                marker.getPopup().setHTML(`<p>Error loading weather data for ${resortName}</p>`);
+            }
+        }
+
+        // Function to load resorts from the cleaned CSV
+        async function loadResorts() {
+            const response = await fetch('./resorts_with_coords_cleaned.csv');
+            const csvData = await response.text();
+
+            // Use PapaParse to handle the CSV parsing
+            Papa.parse(csvData, {
+                header: true, // Use headers from the CSV file
+                skipEmptyLines: true, // Skip empty lines
+                complete: function (results) {
+                    console.log('Parsed CSV Results:', results.data);
+
+                    results.data.forEach(row => {
+                        const { ResortName, PassAffiliation, Latitude, Longitude } = row;
+
+                        if (Latitude && Longitude) {
+                            const marker = new mapboxgl.Marker()
+                                .setLngLat([parseFloat(Longitude), parseFloat(Latitude)])
+                                .setPopup(new mapboxgl.Popup().setHTML(`
+                                    <h3>${ResortName}</h3>
+                                    <p><strong>Pass Affiliation:</strong> ${PassAffiliation || 'Independent'}</p>
+                                `))
+                                .addTo(map);
+
+                            // Fetch weather data when the marker is clicked
+                            marker.getElement().addEventListener('click', () => {
+                                fetchSnowData(ResortName, marker, PassAffiliation);
+                            });
+
+                            console.log(`Marker added for ${ResortName}`);
+                        } else {
+                            console.warn(`Skipping row due to missing coordinates: ${JSON.stringify(row)}`);
+                        }
+                    });
+                }
+            });
+        }
+
+        // Call the function to load the resorts
+        loadResorts();
+    </script>
+</body>
+</html>

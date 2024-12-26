@@ -1,0 +1,144 @@
+@import url("global.css");
+
+/* Root Variables */
+:root {
+    --navbar-width: 256px;
+    --navbar-dark-primary: rgba(24, 40, 59, 0.9);
+    --navbar-highlight: rgba(255, 255, 255, 0.2);
+    --navbar-text-light: #f5f6fa;
+    --navbar-text-secondary: #8392a5;
+    --border-spacing: 30px;
+    --border-thickness: 10px;
+    --map-radius: 20px;
+  }
+  
+  /* General Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #b3c7e3; /* Light Blue: Pantone 277M */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  /* Map Container Styling */
+  #map-container {
+    position: relative;
+    width: 80%; /* Adjust size as needed */
+    height: 75vh; /* Adjust size as needed */
+    margin: auto;
+    border-radius: var(--map-radius); /* Rounded corners */
+    overflow: hidden; /* Ensure no overflow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */
+    border: 10px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+    background-color: #e6eef7; /* Fallback background color */
+  }
+  
+  /* Map Styling */
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit; /* Inherit the parent’s rounded corners */
+  }
+  
+  /* Usable Border Space for Future Functionality */
+  #map-container::before {
+    content: "";
+    position: absolute;
+    top: -var(--border-spacing);
+    left: -var(--border-spacing);
+    right: -var(--border-spacing);
+    bottom: -var(--border-spacing);
+    border-radius: calc(var(--map-radius) + var(--border-spacing));
+    border: var(--border-thickness) solid rgba(0, 0, 0, 0.1); /* Optional outer border */
+    pointer-events: none; /* Ensure it doesn’t block interactions */
+  }
+  
+  /* Add Optional Styling for Feature Panels in the Borders */
+  .feature-panel {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    z-index: 10;
+  }
+  
+  /* Positioning Examples for Feature Panels */
+  .feature-panel.top {
+    top: -var(--border-spacing);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .feature-panel.right {
+    top: 50%;
+    right: -var(--border-spacing);
+    transform: translateY(-50%);
+  }
+  
+  .feature-panel.left {
+    top: 50%;
+    left: -var(--border-spacing);
+    transform: translateY(-50%);
+  }
+  
+  .feature-panel.bottom {
+    bottom: -var(--border-spacing);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+/* Search Bar Styling */
+#search-container {
+    position: absolute;
+    top: 50px; /* Adjust this value for vertical centering */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 60%; /* Adjust width as needed */
+    z-index: 20; /* Ensure it's above the map */
+  }  
+  
+  #search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  #search-results {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    max-height: 200px; /* Limit dropdown height */
+    overflow-y: auto; /* Add scroll if results exceed height */
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: none; /* Hidden by default */
+  }
+  
+  #search-results div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #search-results div:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,162 @@
+/* Root Variables */
+:root {
+    --navbar-width: 256px;
+    --navbar-dark-primary: rgba(24, 40, 59, 0.9); /* Sidebar color with transparency */
+    --navbar-highlight: rgba(255, 255, 255, 0.2); /* Highlight cutout effect */
+    --navbar-text-light: #f5f6fa;
+    --navbar-text-secondary: #8392a5;
+    --border-spacing: 20px; /* Equal space between borders */
+    --border-thickness: 15px; /* Restore original thicker border */
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('hero-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Hero Image Section */
+.hero {
+    position: absolute;
+    top: var(--border-spacing); /* Align inside top border */
+    left: var(--border-spacing); /* Align inside left border */
+    right: var(--border-spacing); /* Align inside right border */
+    bottom: var(--border-spacing); /* Align inside bottom border */
+    border-radius: 30px; /* Match the rounded corners of borders */
+    overflow: hidden; /* Prevent overflow of the image */
+    z-index: 1;
+}
+
+.hero img {
+    width: 100%; /* Fit the reduced hero container */
+    height: 100%; /* Maintain proportional scaling */
+    object-fit: cover; /* Ensure no distortion or overflow */
+}
+
+/* Outer Borders */
+.border-overlay,
+.border-overlay-orange,
+.border-overlay-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px; /* Rounded corners */
+    pointer-events: none; /* Prevent interference with user interactions */
+    box-sizing: border-box;
+    z-index: 10; /* Place above the hero image */
+}
+
+.border-overlay {
+    border: var(--border-thickness) solid #D83A00; /* Dark Orange */
+}
+
+.border-overlay-orange {
+    border: var(--border-thickness) solid #FF8200; /* Orange */
+    top: var(--border-spacing);
+    left: var(--border-spacing);
+    right: var(--border-spacing);
+    bottom: var(--border-spacing);
+}
+
+.border-overlay-yellow {
+    border: var(--border-thickness) solid #FFC72C; /* Yellow */
+    top: calc(var(--border-spacing) * 2);
+    left: calc(var(--border-spacing) * 2);
+    right: calc(var(--border-spacing) * 2);
+    bottom: calc(var(--border-spacing) * 2);
+}
+
+/* Sidebar Styling */
+#nav-bar {
+    position: fixed;
+    left: 60px;
+    top: 60px;
+    bottom: 60px;
+    width: var(--navbar-width);
+    background: var(--navbar-dark-primary);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    color: var(--navbar-text-light);
+    overflow: hidden;
+    z-index: 20; /* Above borders */
+}
+
+#nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#nav-content {
+    position: relative;
+    flex: 1;
+}
+
+.nav-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: var(--navbar-text-secondary);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.nav-button:hover {
+    color: var(--navbar-text-light);
+}
+
+/* Highlight Cutout Effect */
+#nav-content-highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    background: var(--navbar-highlight);
+    transition: top 0.3s ease-in-out;
+    mix-blend-mode: lighten; /* Cutout effect */
+    z-index: 1;
+}
+
+.nav-button:nth-child(1):hover ~ #nav-content-highlight {
+    top: 0;
+}
+.nav-button:nth-child(2):hover ~ #nav-content-highlight {
+    top: 54px;
+}
+.nav-button:nth-child(3):hover ~ #nav-content-highlight {
+    top: 108px;
+}
+.nav-button:nth-child(4):hover ~ #nav-content-highlight {
+    top: 162px;
+}
+.nav-button:nth-child(5):hover ~ #nav-content-highlight {
+    top: 216px;
+}
+
+/* Skibum Logo */
+.skibum-logo {
+    position: absolute !important;
+    top: 60px !important; /* Bring the logo down further */
+    right: 60px !important; /* Move the logo more to the left */
+    width: 120px !important;
+    height: auto !important;
+    z-index: 3 !important;
+}
