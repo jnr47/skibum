@@ -160,3 +160,11 @@ body {
     height: auto !important;
     z-index: 3 !important;
 }
+/* Import and Apply 70s Disco Font */
+/* Apply Ultra Font to Menu Items */
+.nav-button {
+    font-family: 'Ultra', serif; /* Use Ultra font */
+  }
+.nav-button:hover {
+    color: var(--navbar-text-light);
+}

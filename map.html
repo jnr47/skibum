@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skibum.com - Ski Resort Map</title>
-    <link rel="stylesheet" href="style_map.css">
+    <link href="style_map.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
@@ -12,7 +12,7 @@
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Search Container -->
+    <!-- Search Bar -->
     <div id="search-container">
         <input 
             type="text" 
@@ -28,8 +28,18 @@
         <div id="map"></div>
     </div>
 
-    <!-- JavaScript Logic -->
     <script>
+        // Set your Mapbox Access Token
+        mapboxgl.accessToken = 'pk.eyJ1Ijoiam5yNDciLCJhIjoiY200azAzNHo3MGs5MTJpcTRxejE1cmp0NSJ9.YpIGfQ1PZljzCJ7EhCjz4A';
+
+        // Initialize the Map
+        const map = new mapboxgl.Map({
+            container: 'map', // ID of the container to render the map in
+            style: 'mapbox://styles/mapbox/outdoors-v11', // Updated Mapbox style
+            center: [-106.48, 39.63], // Centered around Colorado initially
+            zoom: 5 // Initial zoom level
+        });
+
         // Global variable to store resort data
         let resorts = [];
 
@@ -47,6 +57,52 @@
                     console.log('Resort data loaded:', resorts);
                 }
             });
+        }
+
+        // Function to fetch weather data from RapidAPI
+        async function fetchSnowData(resortName, marker, passAffiliation) {
+            const cleanName = resortName.trim().replace(/\s+/g, ''); // Remove spaces for compatibility
+            const proxyUrl = `https://ski-resort-forecast.p.rapidapi.com/${encodeURIComponent(cleanName)}/snowConditions?units=i`;
+
+            console.log(`Fetching weather data for ${resortName} from: ${proxyUrl}`);
+
+            try {
+                const response = await fetch(proxyUrl, {
+                    method: 'GET',
+                    headers: {
+                        'X-RapidAPI-Key': 'c846753c0cmsh011a5ca3fc881f1p1f142fjsn56095a7e72cb',
+                        'X-RapidAPI-Host': 'ski-resort-forecast.p.rapidapi.com',
+                    },
+                });
+
+                if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
+
+                const data = await response.json();
+
+                console.log(`Weather data for ${resortName}:`, data);
+
+                // Update the popup with both pass affiliation and weather data
+                const popupContent = `
+                    <div class="popup-content">
+                        <h3>${resortName}</h3>
+                        <p><strong>Pass Affiliation:</strong> ${passAffiliation}</p>
+                        <p><strong>Top Snow Depth:</strong> ${data.topSnowDepth || 'N/A'}</p>
+                        <p><strong>Bottom Snow Depth:</strong> ${data.botSnowDepth || 'N/A'}</p>
+                        <p><strong>Fresh Snowfall:</strong> ${data.freshSnowfall || 'N/A'}</p>
+                        <p><strong>Last Snowfall Date:</strong> ${data.lastSnowfallDate || 'N/A'}</p>
+                    </div>
+                `;
+                marker.getPopup().setHTML(popupContent);
+            } catch (error) {
+                console.error(`Error fetching weather data for ${resortName}:`, error);
+                marker.getPopup().setHTML(`
+                    <div class="popup-content">
+                        <h3>${resortName}</h3>
+                        <p><strong>Pass Affiliation:</strong> ${passAffiliation}</p>
+                        <p>Error loading weather data for this resort.</p>
+                    </div>
+                `);
+            }
         }
 
         // Search functionality
@@ -84,60 +140,6 @@
             }
         });
 
-        // Load the resort data
-        loadResortData();
-
-        // Set your Mapbox Access Token
-        mapboxgl.accessToken = 'pk.eyJ1Ijoiam5yNDciLCJhIjoiY200azAzNHo3MGs5MTJpcTRxejE1cmp0NSJ9.YpIGfQ1PZljzCJ7EhCjz4A';
-
-        // Initialize the Map
-        const map = new mapboxgl.Map({
-            container: 'map', // ID of the container to render the map in
-            style: 'mapbox://styles/mapbox/outdoors-v11', // Updated Mapbox style
-            center: [-106.48, 39.63], // Centered around Colorado initially
-            zoom: 5 // Initial zoom level
-        });
-
-        // Function to fetch weather data from RapidAPI
-        async function fetchSnowData(resortName, marker, passAffiliation) {
-            const cleanName = resortName.trim().replace(/\s+/g, '-'); // Replace spaces with dashes
-            const proxyUrl = `https://ski-resort-forecast.p.rapidapi.com/${encodeURIComponent(cleanName)}/snowConditions?units=i`;
-
-            console.log(`Fetching weather data for ${resortName} from: ${proxyUrl}`);
-
-            try {
-                const response = await fetch(proxyUrl, {
-                    method: 'GET',
-                    headers: {
-                        'X-RapidAPI-Key': 'c846753c0cmsh011a5ca3fc881f1p1f142fjsn56095a7e72cb',
-                        'X-RapidAPI-Host': 'ski-resort-forecast.p.rapidapi.com',
-                    },
-                });
-
-                if (!response.ok) throw new Error(`API request failed with status ${response.status}`);
-
-                const data = await response.json();
-
-                console.log(`Weather data for ${resortName}:`, data);
-
-                // Update the popup with both pass affiliation and weather data
-                const popupContent = `
-                    <div class="popup-content">
-                        <h3>${resortName}</h3>
-                        <p><strong>Pass Affiliation:</strong> ${passAffiliation || 'Independent'}</p>
-                        <p><strong>Top Snow Depth:</strong> ${data.topSnowDepth || 'N/A'}</p>
-                        <p><strong>Bottom Snow Depth:</strong> ${data.botSnowDepth || 'N/A'}</p>
-                        <p><strong>Fresh Snowfall:</strong> ${data.freshSnowfall || 'N/A'}</p>
-                        <p><strong>Last Snowfall Date:</strong> ${data.lastSnowfallDate || 'N/A'}</p>
-                    </div>
-                `;
-                marker.getPopup().setHTML(popupContent);
-            } catch (error) {
-                console.error(`Error fetching weather data for ${resortName}:`, error);
-                marker.getPopup().setHTML(`<p>Error loading weather data for ${resortName}</p>`);
-            }
-        }
-
         // Function to load resorts from the cleaned CSV
         async function loadResorts() {
             const response = await fetch('./resorts_with_coords_cleaned.csv');
@@ -157,8 +159,11 @@
                             const marker = new mapboxgl.Marker()
                                 .setLngLat([parseFloat(Longitude), parseFloat(Latitude)])
                                 .setPopup(new mapboxgl.Popup().setHTML(`
-                                    <h3>${ResortName}</h3>
-                                    <p><strong>Pass Affiliation:</strong> ${PassAffiliation || 'Independent'}</p>
+                                    <div>
+                                        <h3>${ResortName}</h3>
+                                        <p><strong>Pass Affiliation:</strong> ${PassAffiliation}</p>
+                                        <p>Loading weather data...</p>
+                                    </div>
                                 `))
                                 .addTo(map);
 
@@ -176,8 +181,9 @@
             });
         }
 
-        // Call the function to load the resorts
+        // Load the resort data and initialize resorts
         loadResorts();
+        loadResortData();
     </script>
 </body>
 </html>
