@@ -1,0 +1,3122 @@
+[
+  {
+    "resortName": "Alyeska",
+    "Latitude": "63.588753",
+    "Longitude": "-154.4930619"
+  },
+  {
+    "resortName": "Arctic Valley",
+    "Latitude": "61.2391787",
+    "Longitude": "-149.6337609"
+  },
+  {
+    "resortName": "Birch Hill Ski & Snowboard Area",
+    "Latitude": "64.8580552",
+    "Longitude": "-147.6184949"
+  },
+  {
+    "resortName": "Eaglecrest",
+    "Latitude": "58.3",
+    "Longitude": "-134.42"
+  },
+  {
+    "resortName": "Hillberg Ski Area",
+    "Latitude": "61.2752023",
+    "Longitude": "-149.8208121"
+  },
+  {
+    "resortName": "Hilltop Ski Area",
+    "Latitude": "61.140846",
+    "Longitude": "-149.744961"
+  },
+  {
+    "resortName": "Homer Rope Tow",
+    "Latitude": "59.7086718",
+    "Longitude": "-151.4911336"
+  },
+  {
+    "resortName": "Iceman Falls",
+    "Latitude": "64.6500088",
+    "Longitude": "-146.978946"
+  },
+  {
+    "resortName": "Moose Mountain Ski Resort",
+    "Latitude": "64.94",
+    "Longitude": "-147.99"
+  },
+  {
+    "resortName": "Mount Eyak",
+    "Latitude": "60.5500012",
+    "Longitude": "-145.7499932"
+  },
+  {
+    "resortName": "Skeetawk",
+    "Latitude": "61.7431411",
+    "Longitude": "-149.2338562"
+  },
+  {
+    "resortName": "Ski Land Ski and Snowboard Area",
+    "Latitude": "65.0458808",
+    "Longitude": "-147.409476"
+  },
+  {
+    "resortName": "Arizona Snowbowl",
+    "Latitude": "35.3307109",
+    "Longitude": "-111.7058368"
+  },
+  {
+    "resortName": "Elk Ridge",
+    "Latitude": "53.8928018",
+    "Longitude": "-105.9894008"
+  },
+  {
+    "resortName": "Mt. Lemmon",
+    "Latitude": "32.4434174",
+    "Longitude": "-110.7881222"
+  },
+  {
+    "resortName": "Sunrise Park Resort",
+    "Latitude": "33.9737271",
+    "Longitude": "-109.5642283"
+  },
+  {
+    "resortName": "Alta Sierra",
+    "Latitude": "39.1415618",
+    "Longitude": "-121.0538368"
+  },
+  {
+    "resortName": "Badger Pass",
+    "Latitude": "37.6622677",
+    "Longitude": "-119.6633655"
+  },
+  {
+    "resortName": "Bear Mountain (Big Bear)",
+    "Latitude": "34.2280484",
+    "Longitude": "-116.8604308"
+  },
+  {
+    "resortName": "Bear Valley",
+    "Latitude": "38.4646337",
+    "Longitude": "-120.0399088"
+  },
+  {
+    "resortName": "Boreal Mountain California",
+    "Latitude": "39.3360462",
+    "Longitude": "-120.3504985"
+  },
+  {
+    "resortName": "buckhorn ski and snowboard club",
+    "Latitude": "34.341899",
+    "Longitude": "-117.919709"
+  },
+  {
+    "resortName": "China Peak",
+    "Latitude": "37.2364356",
+    "Longitude": "-119.1573708"
+  },
+  {
+    "resortName": "Coppervale",
+    "Latitude": "40.34667",
+    "Longitude": "-120.90389"
+  },
+  {
+    "resortName": "Dodge Ridge",
+    "Latitude": "38.1898028",
+    "Longitude": "-119.9558639"
+  },
+  {
+    "resortName": "Donner Ski Ranch",
+    "Latitude": "39.3181619",
+    "Longitude": "-120.3301365"
+  },
+  {
+    "resortName": "Granlibakken",
+    "Latitude": "39.1562348",
+    "Longitude": "-120.1542955"
+  },
+  {
+    "resortName": "Heavenly Mountain Resort",
+    "Latitude": "38.9287152",
+    "Longitude": "-119.9051153"
+  },
+  {
+    "resortName": "Homewood",
+    "Latitude": "39.08",
+    "Longitude": "-120.17"
+  },
+  {
+    "resortName": "June Mountain",
+    "Latitude": "37.7679169",
+    "Longitude": "-119.0906293"
+  },
+  {
+    "resortName": "Kingvale",
+    "Latitude": "39.3195198",
+    "Longitude": "-120.4324796"
+  },
+  {
+    "resortName": "Kirkwood",
+    "Latitude": "38.7023082",
+    "Longitude": "-120.0722442"
+  },
+  {
+    "resortName": "Mammoth",
+    "Latitude": "37.648546",
+    "Longitude": "-118.972079"
+  },
+  {
+    "resortName": "Mt. Baldy",
+    "Latitude": "34.2363809",
+    "Longitude": "-117.6589752"
+  },
+  {
+    "resortName": "Mt. Shasta",
+    "Latitude": "41.4098732",
+    "Longitude": "-122.1948817"
+  },
+  {
+    "resortName": "Mt. Waterman",
+    "Latitude": "34.3493069",
+    "Longitude": "-117.9287896"
+  },
+  {
+    "resortName": "Mountain High: East",
+    "Latitude": "34.3725051",
+    "Longitude": "-117.6770248"
+  },
+  {
+    "resortName": "Mountain High Resort",
+    "Latitude": "34.3769418",
+    "Longitude": "-117.6915242"
+  },
+  {
+    "resortName": "Northstar",
+    "Latitude": "39.2646579",
+    "Longitude": "-120.1331868"
+  },
+  {
+    "resortName": "Palisades Tahoe",
+    "Latitude": "39.1906091",
+    "Longitude": "-120.2483913"
+  },
+  {
+    "resortName": "Sierra-at-Tahoe",
+    "Latitude": "38.8002432",
+    "Longitude": "-120.0804043"
+  },
+  {
+    "resortName": "Snow Summit (Big Bear)",
+    "Latitude": "34.2363263",
+    "Longitude": "-116.889028"
+  },
+  {
+    "resortName": "Snow Valley",
+    "Latitude": "34.224952",
+    "Longitude": "-117.036034"
+  },
+  {
+    "resortName": "Soda Springs",
+    "Latitude": "39.323489",
+    "Longitude": "-120.379338"
+  },
+  {
+    "resortName": "Sugar Bowl Resort",
+    "Latitude": "39.3006772",
+    "Longitude": "-120.3348481"
+  },
+  {
+    "resortName": "Tahoe Donner",
+    "Latitude": "39.3547403",
+    "Longitude": "-120.2585675"
+  },
+  {
+    "resortName": "Arapahoe Basin",
+    "Latitude": "39.634108",
+    "Longitude": "-105.8714672"
+  },
+  {
+    "resortName": "Aspen Highlands",
+    "Latitude": "39.1820055",
+    "Longitude": "-106.8563952"
+  },
+  {
+    "resortName": "Aspen Mountain",
+    "Latitude": "39.1862685",
+    "Longitude": "-106.818212"
+  },
+  {
+    "resortName": "Beaver Creek",
+    "Latitude": "39.604225",
+    "Longitude": "-106.516515"
+  },
+  {
+    "resortName": "Breckenridge",
+    "Latitude": "39.4816537",
+    "Longitude": "-106.0383518"
+  },
+  {
+    "resortName": "Buttermilk Ski Resort",
+    "Latitude": "39.2058029",
+    "Longitude": "-106.8610687"
+  },
+  {
+    "resortName": "Chapman Hill Ski Area",
+    "Latitude": "37.2829766",
+    "Longitude": "-107.8684265"
+  },
+  {
+    "resortName": "Copper Mountain",
+    "Latitude": "39.5066533",
+    "Longitude": "-106.1422441"
+  },
+  {
+    "resortName": "Cranor Hill",
+    "Latitude": "38.5869835",
+    "Longitude": "-106.896029"
+  },
+  {
+    "resortName": "Crested Butte",
+    "Latitude": "38.8697146",
+    "Longitude": "-106.9878231"
+  },
+  {
+    "resortName": "Cuchara",
+    "Latitude": "37.35",
+    "Longitude": "-105.12"
+  },
+  {
+    "resortName": "Echo Mountain",
+    "Latitude": "39.6845817",
+    "Longitude": "-105.5193928"
+  },
+  {
+    "resortName": "Eldora",
+    "Latitude": "39.9494543",
+    "Longitude": "-105.5702333"
+  },
+  {
+    "resortName": "Frisco",
+    "Latitude": "33.1506744",
+    "Longitude": "-96.8236116"
+  },
+  {
+    "resortName": "Granby Ranch",
+    "Latitude": "40.0446489",
+    "Longitude": "-105.9063325"
+  },
+  {
+    "resortName": "Hesperus",
+    "Latitude": "37.2861114",
+    "Longitude": "-108.0395165"
+  },
+  {
+    "resortName": "Hoedown Hill",
+    "Latitude": "40.4520656",
+    "Longitude": "-104.9313209"
+  },
+  {
+    "resortName": "Howelsen Hill",
+    "Latitude": "40.4833683",
+    "Longitude": "-106.8379721"
+  },
+  {
+    "resortName": "Kendall Mountain",
+    "Latitude": "37.8111854",
+    "Longitude": "-107.6568195"
+  },
+  {
+    "resortName": "Keystone",
+    "Latitude": "39.5791675",
+    "Longitude": "-105.9347384"
+  },
+  {
+    "resortName": "lee's ski hill",
+    "Latitude": "38.0193644",
+    "Longitude": "-107.6691359"
+  },
+  {
+    "resortName": "Loveland",
+    "Latitude": "40.395451",
+    "Longitude": "-105.0745837"
+  },
+  {
+    "resortName": "Loveland Valley",
+    "Latitude": "39.6800625",
+    "Longitude": "-105.8979531"
+  },
+  {
+    "resortName": "Monarch Mountain",
+    "Latitude": "38.5120635",
+    "Longitude": "-106.3319719"
+  },
+  {
+    "resortName": "powderhorn mountain resort",
+    "Latitude": "39.0693741",
+    "Longitude": "-108.1507111"
+  },
+  {
+    "resortName": "purgatory ski resort",
+    "Latitude": "37.6276821",
+    "Longitude": "-107.8376083"
+  },
+  {
+    "resortName": "Ski Cooper",
+    "Latitude": "39.3601951",
+    "Longitude": "-106.301445"
+  },
+  {
+    "resortName": "Snowmass",
+    "Latitude": "39.2130418",
+    "Longitude": "-106.9378207"
+  },
+  {
+    "resortName": "Steamboat",
+    "Latitude": "40.4849769",
+    "Longitude": "-106.8317158"
+  },
+  {
+    "resortName": "Sunlight Mountain Resort",
+    "Latitude": "39.3997821",
+    "Longitude": "-107.3387647"
+  },
+  {
+    "resortName": "Telluride",
+    "Latitude": "37.9374939",
+    "Longitude": "-107.8122852"
+  },
+  {
+    "resortName": "Vail Mountain    ",
+    "Latitude": "39.6060971",
+    "Longitude": "-106.3564172"
+  },
+  {
+    "resortName": "Winter Park",
+    "Latitude": "39.8916537",
+    "Longitude": "-105.7630624"
+  },
+  {
+    "resortName": "Wolf Creek",
+    "Latitude": "37.4722034",
+    "Longitude": "-106.7930328"
+  },
+  {
+    "resortName": "Lakeridge Ski Area Torrington CT",
+    "Latitude": "41.8750877",
+    "Longitude": "-73.111061"
+  },
+  {
+    "resortName": "Mohawk Mountain",
+    "Latitude": "41.838231",
+    "Longitude": "-73.3150586"
+  },
+  {
+    "resortName": "Mount Southington",
+    "Latitude": "41.5825414",
+    "Longitude": "-72.9248467"
+  },
+  {
+    "resortName": "Powder Ridge",
+    "Latitude": "41.5",
+    "Longitude": "-72.7"
+  },
+  {
+    "resortName": "Ski Sundown",
+    "Latitude": "41.8846852",
+    "Longitude": "-72.9466986"
+  },
+  {
+    "resortName": "Bald Mountain Ski Area",
+    "Latitude": "46.5704942",
+    "Longitude": "-115.8695735"
+  },
+  {
+    "resortName": "Martin Blizzard Mountain Ski Hill",
+    "Latitude": "43.5080067",
+    "Longitude": "-113.5596528"
+  },
+  {
+    "resortName": "Bogus Basin",
+    "Latitude": "43.7640569",
+    "Longitude": "-116.1026168"
+  },
+  {
+    "resortName": "Brundage Mountain Resort",
+    "Latitude": "45.0054",
+    "Longitude": "-116.154412"
+  },
+  {
+    "resortName": "chipmunk hill ski area",
+    "Latitude": "44.4710343",
+    "Longitude": "-114.3227927"
+  },
+  {
+    "resortName": "Cottonwood Butte",
+    "Latitude": "46.0755855",
+    "Longitude": "-116.4526032"
+  },
+  {
+    "resortName": "Gateway Parks: Eagle Island",
+    "Latitude": "43.6851978",
+    "Longitude": "-116.3961909"
+  },
+  {
+    "resortName": "Gateway Parks: Idaho Falls",
+    "Latitude": "43.4671613",
+    "Longitude": "-112.0702123"
+  },
+  {
+    "resortName": "Kelly Canyon",
+    "Latitude": "43.6460169",
+    "Longitude": "-111.6298851"
+  },
+  {
+    "resortName": "Little Ski Hill",
+    "Latitude": "44.929989",
+    "Longitude": "-116.163082"
+  },
+  {
+    "resortName": "Lookout Pass",
+    "Latitude": "47.4554862",
+    "Longitude": "-115.6968233"
+  },
+  {
+    "resortName": "Magic Mountain Ski Resort",
+    "Latitude": "42.1894229",
+    "Longitude": "-114.2853163"
+  },
+  {
+    "resortName": "Pebble Creek",
+    "Latitude": "42.7785571",
+    "Longitude": "-112.1592798"
+  },
+  {
+    "resortName": "Pomerelle",
+    "Latitude": "42.3179871",
+    "Longitude": "-113.6077523"
+  },
+  {
+    "resortName": "Rotarun",
+    "Latitude": "43.4973787",
+    "Longitude": "-114.3650597"
+  },
+  {
+    "resortName": "Schweitzer Mountain",
+    "Latitude": "48.3760268",
+    "Longitude": "-116.6171258"
+  },
+  {
+    "resortName": "Silver Mountain",
+    "Latitude": "47.540718",
+    "Longitude": "-116.133171"
+  },
+  {
+    "resortName": "Snowhaven",
+    "Latitude": "45.8691423",
+    "Longitude": "-116.0903712"
+  },
+  {
+    "resortName": "Soldier Mountain",
+    "Latitude": "43.485512",
+    "Longitude": "-114.82938"
+  },
+  {
+    "resortName": "Sun Valley Resort",
+    "Latitude": "43.6971294",
+    "Longitude": "-114.3517172"
+  },
+  {
+    "resortName": "Tamarack",
+    "Latitude": "44.9551656",
+    "Longitude": "-116.3856896"
+  },
+  {
+    "resortName": "Alpine Hills Adventure Park",
+    "Latitude": "42.2590261",
+    "Longitude": "-89.0313376"
+  },
+  {
+    "resortName": "Chestnut Mountain",
+    "Latitude": "42.319017",
+    "Longitude": "-90.393793"
+  },
+  {
+    "resortName": "Fourlakes",
+    "Latitude": "41.7823442",
+    "Longitude": "-88.0835789"
+  },
+  {
+    "resortName": "Snowstar",
+    "Latitude": "41.425203",
+    "Longitude": "-90.7461749"
+  },
+  {
+    "resortName": "Villa Olivia",
+    "Latitude": "42.012825",
+    "Longitude": "-88.22016"
+  },
+  {
+    "resortName": "Paoli Peaks",
+    "Latitude": "38.5555868",
+    "Longitude": "-86.5122305"
+  },
+  {
+    "resortName": "Perfect North Slopes",
+    "Latitude": "40.6331249",
+    "Longitude": "-89.3985283"
+  },
+  {
+    "resortName": "Mt. Crescent",
+    "Latitude": "41.39421",
+    "Longitude": "-95.860359"
+  },
+  {
+    "resortName": "Seven Oaks Ski Resort",
+    "Latitude": "42.0306987",
+    "Longitude": "-93.9533806"
+  },
+  {
+    "resortName": "Sundown Mountain Resort",
+    "Latitude": "42.5163315",
+    "Longitude": "-90.8186286"
+  },
+  {
+    "resortName": "Baker Mountain",
+    "Latitude": "48.7766868",
+    "Longitude": "-121.8144142"
+  },
+  {
+    "resortName": "Big Moose Mountain Ski Area",
+    "Latitude": "45.5066618",
+    "Longitude": "-69.7020055"
+  },
+  {
+    "resortName": "Bigrock Mountain",
+    "Latitude": "46.5224036",
+    "Longitude": "-67.8289461"
+  },
+  {
+    "resortName": "Black Mountain of Maine",
+    "Latitude": "44.5769444",
+    "Longitude": "-70.6133333"
+  },
+  {
+    "resortName": "Camden Snow Bowl",
+    "Latitude": "44.2177097",
+    "Longitude": "-69.1314385"
+  },
+  {
+    "resortName": "Caribou High School",
+    "Latitude": "46.8640471",
+    "Longitude": "-68.034006"
+  },
+  {
+    "resortName": "Hermon Mountain",
+    "Latitude": "44.78",
+    "Longitude": "-68.96"
+  },
+  {
+    "resortName": "Lost Valley Ski Resort",
+    "Latitude": "44.1360699",
+    "Longitude": "-70.282957"
+  },
+  {
+    "resortName": "Mount Abram",
+    "Latitude": "44.3797963",
+    "Longitude": "-70.7068649"
+  },
+  {
+    "resortName": "Mount Jefferson",
+    "Latitude": "45.35",
+    "Longitude": "-67.72"
+  },
+  {
+    "resortName": "Pinnacle Ski Club",
+    "Latitude": "44.7830774",
+    "Longitude": "-69.3821141"
+  },
+  {
+    "resortName": "Pleasant Mountain Ski Resort",
+    "Latitude": "44.058319",
+    "Longitude": "-70.8151591"
+  },
+  {
+    "resortName": "Powderhouse Hill",
+    "Latitude": "43.2370209",
+    "Longitude": "-70.8022414"
+  },
+  {
+    "resortName": "Quarry Road",
+    "Latitude": "44.5741958",
+    "Longitude": "-69.6520251"
+  },
+  {
+    "resortName": "Quoggy Jo Ski Center",
+    "Latitude": "46.7224998",
+    "Longitude": "-67.9291305"
+  },
+  {
+    "resortName": "Saddleback",
+    "Latitude": "44.95",
+    "Longitude": "-70.53"
+  },
+  {
+    "resortName": "Spruce Mountain Ski Slope",
+    "Latitude": "44.4778522",
+    "Longitude": "-70.2023142"
+  },
+  {
+    "resortName": "Sugarloaf",
+    "Latitude": "45.08",
+    "Longitude": "-70.17"
+  },
+  {
+    "resortName": "Sunday River",
+    "Latitude": "44.4684091",
+    "Longitude": "-70.8774107"
+  },
+  {
+    "resortName": "Titcomb Mountain",
+    "Latitude": "44.6497222",
+    "Longitude": "-70.1702778"
+  },
+  {
+    "resortName": "Wisp Ski resort",
+    "Latitude": "39.5568677",
+    "Longitude": "-79.3634466"
+  },
+  {
+    "resortName": "Berkshire East",
+    "Latitude": "42.6211485",
+    "Longitude": "-72.877135"
+  },
+  {
+    "resortName": "Blue Hills Ski Area",
+    "Latitude": "42.2159609",
+    "Longitude": "-71.1190551"
+  },
+  {
+    "resortName": "Bousquet Mountain Ski Area",
+    "Latitude": "42.4190908",
+    "Longitude": "-73.2765984"
+  },
+  {
+    "resortName": "Butternut Ski Area and Tubing Center",
+    "Latitude": "42.183659",
+    "Longitude": "-73.3201325"
+  },
+  {
+    "resortName": "Catamount Ski Resort",
+    "Latitude": "42.1690998",
+    "Longitude": "-73.4769258"
+  },
+  {
+    "resortName": "Easton (Eaglebrook School)",
+    "Latitude": "40.688432",
+    "Longitude": "-75.2207323"
+  },
+  {
+    "resortName": "Jiminy Peak",
+    "Latitude": "42.5556521",
+    "Longitude": "-73.2899875"
+  },
+  {
+    "resortName": "Mt. Greylock Ski Club",
+    "Latitude": "42.6375821",
+    "Longitude": "-73.1662155"
+  },
+  {
+    "resortName": "Nashoba Valley",
+    "Latitude": "42.5425766",
+    "Longitude": "-71.4448687"
+  },
+  {
+    "resortName": "Otis Ridge",
+    "Latitude": "42.1963889",
+    "Longitude": "-73.0983333"
+  },
+  {
+    "resortName": "Ski Bradford",
+    "Latitude": "42.7447273",
+    "Longitude": "-71.0558152"
+  },
+  {
+    "resortName": "Ski Ward",
+    "Latitude": "42.3014833",
+    "Longitude": "-71.6829768"
+  },
+  {
+    "resortName": "Wachusett",
+    "Latitude": "42.4891723",
+    "Longitude": "-71.8870425"
+  },
+  {
+    "resortName": "Adventure Mountain Mass City",
+    "Latitude": "46.7711111",
+    "Longitude": "-89.0833333"
+  },
+  {
+    "resortName": "Alpine Valley",
+    "Latitude": "42.63",
+    "Longitude": "-83.51"
+  },
+  {
+    "resortName": "Big Powderhorn Mountain Resort",
+    "Latitude": "46.5090372",
+    "Longitude": "-90.0957069"
+  },
+  {
+    "resortName": "Big Valley Ski and Tube",
+    "Latitude": "46.3350448",
+    "Longitude": "-85.5223129"
+  },
+  {
+    "resortName": "Bittersweet Ski Resort",
+    "Latitude": "42.467159",
+    "Longitude": "-85.758719"
+  },
+  {
+    "resortName": "Boyne Mountain",
+    "Latitude": "45.1640641",
+    "Longitude": "-84.9283933"
+  },
+  {
+    "resortName": "Caberfae Peaks",
+    "Latitude": "44.2447088",
+    "Longitude": "-85.7205725"
+  },
+  {
+    "resortName": "Cannonsburg",
+    "Latitude": "43.0539179",
+    "Longitude": "-85.4697477"
+  },
+  {
+    "resortName": "Challenge Mountain",
+    "Latitude": "45.2045972",
+    "Longitude": "-84.9983373"
+  },
+  {
+    "resortName": "Covington (UP)",
+    "Latitude": "27.5705886",
+    "Longitude": "80.0981869"
+  },
+  {
+    "resortName": "Crystal Mountain MI",
+    "Latitude": "44.5199554",
+    "Longitude": "-85.9922593"
+  },
+  {
+    "resortName": "Crystella Ski Hill",
+    "Latitude": "46.0927619",
+    "Longitude": "-88.3407897"
+  },
+  {
+    "resortName": "Hanson Hills Recreation Area",
+    "Latitude": "44.6455709",
+    "Longitude": "-84.7534741"
+  },
+  {
+    "resortName": "Hickory Hills",
+    "Latitude": "41.7255879",
+    "Longitude": "-87.825055"
+  },
+  {
+    "resortName": "Homestead Ski Resort",
+    "Latitude": "46.3380742",
+    "Longitude": "-84.1225258"
+  },
+  {
+    "resortName": "Marquette Mountain (UP)",
+    "Latitude": "46.5082074",
+    "Longitude": "-87.4208097"
+  },
+  {
+    "resortName": "Missaukee Ski Mountain",
+    "Latitude": "44.3921342",
+    "Longitude": "-85.2274138"
+  },
+  {
+    "resortName": "Mont Ripley (UP)",
+    "Latitude": "47.1279318",
+    "Longitude": "-88.5600458"
+  },
+  {
+    "resortName": "Mount Bohemia (UP)",
+    "Latitude": "47.387989",
+    "Longitude": "-88.0211181"
+  },
+  {
+    "resortName": "Mount Brighton",
+    "Latitude": "42.54083",
+    "Longitude": "-83.8115217"
+  },
+  {
+    "resortName": "Mount Holiday Ski Resort",
+    "Latitude": "44.7434864",
+    "Longitude": "-85.514097"
+  },
+  {
+    "resortName": "Mount Holly",
+    "Latitude": "39.9931696",
+    "Longitude": "-74.7855812"
+  },
+  {
+    "resortName": "Mount McSauba",
+    "Latitude": "45.3315079",
+    "Longitude": "-85.2457664"
+  },
+  {
+    "resortName": "Mount Zion Ski Hill",
+    "Latitude": "46.4741755",
+    "Longitude": "-90.1630175"
+  },
+  {
+    "resortName": "Mulligan's Hollow",
+    "Latitude": "43.0580548",
+    "Longitude": "-86.2392335"
+  },
+  {
+    "resortName": "Norway Mountain",
+    "Latitude": "45.7894874",
+    "Longitude": "-87.8698523"
+  },
+  {
+    "resortName": "Nub's Nob",
+    "Latitude": "45.4714767",
+    "Longitude": "-84.9048135"
+  },
+  {
+    "resortName": "Otsego",
+    "Latitude": "45.2741314",
+    "Longitude": "-93.5913501"
+  },
+  {
+    "resortName": "Pine Knob",
+    "Latitude": "42.7422524",
+    "Longitude": "-83.3671629"
+  },
+  {
+    "resortName": "Pine Mountain Ski and Golf Resort",
+    "Latitude": "45.8391227",
+    "Longitude": "-88.0887374"
+  },
+  {
+    "resortName": "Porcupine Mountains Ski Area. Michigan",
+    "Latitude": "46.8178443",
+    "Longitude": "-89.6501617"
+  },
+  {
+    "resortName": "Sault Seal Recreation Area",
+    "Latitude": "46.4760398",
+    "Longitude": "-84.3454895"
+  },
+  {
+    "resortName": "Shanty Creek - Schuss",
+    "Latitude": "44.9485751",
+    "Longitude": "-85.1850784"
+  },
+  {
+    "resortName": "Ski Brule (UP)",
+    "Latitude": "46.0296772",
+    "Longitude": "-88.7012278"
+  },
+  {
+    "resortName": "Snow Snake Ski and Golf",
+    "Latitude": "43.9589831",
+    "Longitude": "-84.7807043"
+  },
+  {
+    "resortName": "Black River Basin at Snowriver Mountain Resort",
+    "Latitude": "46.5047684",
+    "Longitude": "-89.9975729"
+  },
+  {
+    "resortName": "Swiss Valley",
+    "Latitude": "41.9546966",
+    "Longitude": "-85.8273391"
+  },
+  {
+    "resortName": "The Highlands Ski Resort",
+    "Latitude": "45.4647239",
+    "Longitude": "-84.926535"
+  },
+  {
+    "resortName": "Timber Ridge Ski Area",
+    "Latitude": "42.3915135",
+    "Longitude": "-85.7809495"
+  },
+  {
+    "resortName": "Tower Mountain",
+    "Latitude": "43.1775314",
+    "Longitude": "-85.2527987"
+  },
+  {
+    "resortName": "Treetops",
+    "Latitude": "45.0352935",
+    "Longitude": "-84.5915145"
+  },
+  {
+    "resortName": "Afton Alps",
+    "Latitude": "44.8576608",
+    "Longitude": "-92.7878062"
+  },
+  {
+    "resortName": "Andes Tower Hills",
+    "Latitude": "45.850975",
+    "Longitude": "-95.6304971"
+  },
+  {
+    "resortName": "Buck Hill",
+    "Latitude": "44.7231319",
+    "Longitude": "-93.287252"
+  },
+  {
+    "resortName": "Buena Vista",
+    "Latitude": "38.8422178",
+    "Longitude": "-106.1311288"
+  },
+  {
+    "resortName": "Chester Bowl",
+    "Latitude": "46.8135265",
+    "Longitude": "-92.0959804"
+  },
+  {
+    "resortName": "Cloquet Nordic Ski Club",
+    "Latitude": "46.7217735",
+    "Longitude": "-92.4611825"
+  },
+  {
+    "resortName": "Coffee Mill Ski Area",
+    "Latitude": "44.3636111",
+    "Longitude": "-92.0433333"
+  },
+  {
+    "resortName": "Como",
+    "Latitude": "45.8063817",
+    "Longitude": "9.0851867"
+  },
+  {
+    "resortName": "Detroit Mountain",
+    "Latitude": "46.8162218",
+    "Longitude": "-95.7835195"
+  },
+  {
+    "resortName": "Elm Creek",
+    "Latitude": "49.675556",
+    "Longitude": "-97.9925"
+  },
+  {
+    "resortName": "Giants Ridge",
+    "Latitude": "47.5765197",
+    "Longitude": "-92.3031692"
+  },
+  {
+    "resortName": "Hyland Hills",
+    "Latitude": "44.84363",
+    "Longitude": "-93.363611"
+  },
+  {
+    "resortName": "Lutsen Mountains",
+    "Latitude": "47.663713",
+    "Longitude": "-90.7135557"
+  },
+  {
+    "resortName": "Mt. Itasca Winter Sports Center",
+    "Latitude": "47.2855488",
+    "Longitude": "-93.4475163"
+  },
+  {
+    "resortName": "Mount Kato",
+    "Latitude": "44.1331301",
+    "Longitude": "-94.0333662"
+  },
+  {
+    "resortName": "Mount Ski Gull",
+    "Latitude": "46.4475939",
+    "Longitude": "-94.3779586"
+  },
+  {
+    "resortName": "Powder Ridge",
+    "Latitude": "45.343693",
+    "Longitude": "-94.305315"
+  },
+  {
+    "resortName": "Spirit Mountain Ski Area",
+    "Latitude": "46.7182684",
+    "Longitude": "-92.2167365"
+  },
+  {
+    "resortName": "Steeplechase Ski",
+    "Latitude": "46.729553",
+    "Longitude": "-94.6858998"
+  },
+  {
+    "resortName": "Welch Village",
+    "Latitude": "44.5683003",
+    "Longitude": "-92.7385321"
+  },
+  {
+    "resortName": "Wild Mountain",
+    "Latitude": "45.49",
+    "Longitude": "-92.71"
+  },
+  {
+    "resortName": "Hidden Valley",
+    "Latitude": "38.5353168",
+    "Longitude": "-90.6506898"
+  },
+  {
+    "resortName": "Snow Creek Mountain Resort",
+    "Latitude": "39.4673048",
+    "Longitude": "-94.9707416"
+  },
+  {
+    "resortName": "Bear Paw Ski Bowl",
+    "Latitude": "48.1649918",
+    "Longitude": "-109.6701448"
+  },
+  {
+    "resortName": "Bear Canyon",
+    "Latitude": "32.3216929",
+    "Longitude": "-110.8101999"
+  },
+  {
+    "resortName": "Big Sky",
+    "Latitude": "45.2617806",
+    "Longitude": "-111.3080244"
+  },
+  {
+    "resortName": "Blacktail Mountain Ski Area",
+    "Latitude": "48.0148365",
+    "Longitude": "-114.3695668"
+  },
+  {
+    "resortName": "Bridger Bowl",
+    "Latitude": "45.8173562",
+    "Longitude": "-110.8966184"
+  },
+  {
+    "resortName": "Discovery Ski Area",
+    "Latitude": "46.2496035",
+    "Longitude": "-113.238433"
+  },
+  {
+    "resortName": "Great Divide",
+    "Latitude": "46.753073",
+    "Longitude": "-112.313478"
+  },
+  {
+    "resortName": "Lost Trail ",
+    "Latitude": "45.6922649",
+    "Longitude": "-113.9520679"
+  },
+  {
+    "resortName": "Maverick Mountain",
+    "Latitude": "45.4339155",
+    "Longitude": "-113.128581"
+  },
+  {
+    "resortName": "Montana Snowbowl",
+    "Latitude": "47.014436",
+    "Longitude": "-113.999568"
+  },
+  {
+    "resortName": "Red Lodge",
+    "Latitude": "45.1857782",
+    "Longitude": "-109.2468211"
+  },
+  {
+    "resortName": "Showdown Mountain",
+    "Latitude": "46.8385386",
+    "Longitude": "-110.7078618"
+  },
+  {
+    "resortName": "Teton Pass",
+    "Latitude": "43.4974247",
+    "Longitude": "-110.9552144"
+  },
+  {
+    "resortName": "Turner Mountain Ski Area",
+    "Latitude": "48.6049563",
+    "Longitude": "-115.6308061"
+  },
+  {
+    "resortName": "Whitefish",
+    "Latitude": "48.4106373",
+    "Longitude": "-114.3352652"
+  },
+  {
+    "resortName": "Yellowstone Club",
+    "Latitude": "45.2458036",
+    "Longitude": "-111.3745324"
+  },
+  {
+    "resortName": "Diamond Peak",
+    "Latitude": "39.2536805",
+    "Longitude": "-119.92381"
+  },
+  {
+    "resortName": "Elko Snobowl",
+    "Latitude": "40.8324211",
+    "Longitude": "-115.7631232"
+  },
+  {
+    "resortName": "Lee Canyon",
+    "Latitude": "36.3037018",
+    "Longitude": "-115.6796327"
+  },
+  {
+    "resortName": "Mt. Rose",
+    "Latitude": "39.3437237",
+    "Longitude": "-119.9171448"
+  },
+  {
+    "resortName": "Sky Tavern",
+    "Latitude": "39.336911",
+    "Longitude": "-119.872522"
+  },
+  {
+    "resortName": "Abenaki (Wolfboro)",
+    "Latitude": "43.5852069",
+    "Longitude": "-71.2094799"
+  },
+  {
+    "resortName": "Arrowhead Recereation Area",
+    "Latitude": "43.3632798",
+    "Longitude": "-72.3330939"
+  },
+  {
+    "resortName": "Attitash",
+    "Latitude": "44.082771",
+    "Longitude": "-71.229443"
+  },
+  {
+    "resortName": "Black Mountain",
+    "Latitude": "44.17",
+    "Longitude": "-71.16"
+  },
+  {
+    "resortName": "Bretton Woods",
+    "Latitude": "44.2582949",
+    "Longitude": "-71.4433295"
+  },
+  {
+    "resortName": "Campton",
+    "Latitude": "43.8224604",
+    "Longitude": "-71.6440615"
+  },
+  {
+    "resortName": "Cannon Mountain Ski Area",
+    "Latitude": "44.1564536",
+    "Longitude": "-71.6984172"
+  },
+  {
+    "resortName": "Clancy (Cardigan Mtn School)",
+    "Latitude": "43.6756046",
+    "Longitude": "-72.0403404"
+  },
+  {
+    "resortName": "Cranmore Mountain Resort",
+    "Latitude": "44.0564777",
+    "Longitude": "-71.1101239"
+  },
+  {
+    "resortName": "Crotched Mountain",
+    "Latitude": "42.9984151",
+    "Longitude": "-71.8736895"
+  },
+  {
+    "resortName": "Dartmouth Skiway",
+    "Latitude": "43.787748",
+    "Longitude": "-72.099538"
+  },
+  {
+    "resortName": "Gateway Hills Snow Park",
+    "Latitude": "42.7146727",
+    "Longitude": "-71.4527315"
+  },
+  {
+    "resortName": "Granite Gorge",
+    "Latitude": "42.970978",
+    "Longitude": "-72.212044"
+  },
+  {
+    "resortName": "Gunstock",
+    "Latitude": "43.5410554",
+    "Longitude": "-71.3628798"
+  },
+  {
+    "resortName": "Kanc Recreation Area",
+    "Latitude": "44.052585",
+    "Longitude": "-71.6652845"
+  },
+  {
+    "resortName": "King Pine Ski Area",
+    "Latitude": "43.868054",
+    "Longitude": "-71.0888828"
+  },
+  {
+    "resortName": "Loon Mountain Resort",
+    "Latitude": "44.0563456",
+    "Longitude": "-71.6336041"
+  },
+  {
+    "resortName": "McIntyre Ski Area",
+    "Latitude": "43.0065612",
+    "Longitude": "-71.4418183"
+  },
+  {
+    "resortName": "Mount Eustis Ski Hill",
+    "Latitude": "44.2973976",
+    "Longitude": "-71.7736029"
+  },
+  {
+    "resortName": "Mount Propect Ski Tow",
+    "Latitude": "44.4571189",
+    "Longitude": "-71.5769195"
+  },
+  {
+    "resortName": "Mount Sunapee",
+    "Latitude": "43.313611",
+    "Longitude": "-72.074167"
+  },
+  {
+    "resortName": "Pats Peak",
+    "Latitude": "43.1639733",
+    "Longitude": "-71.7976596"
+  },
+  {
+    "resortName": "Proctor Ski Area",
+    "Latitude": "43.4310027",
+    "Longitude": "-71.8260451"
+  },
+  {
+    "resortName": "Ragged Mountain Resort",
+    "Latitude": "43.4854683",
+    "Longitude": "-71.8422858"
+  },
+  {
+    "resortName": "Storrs Hill",
+    "Latitude": "43.64",
+    "Longitude": "-72.25"
+  },
+  {
+    "resortName": "Tenney Mountain Resort",
+    "Latitude": "43.7470855",
+    "Longitude": "-71.7645874"
+  },
+  {
+    "resortName": "Veterans Memorial Recreation Area",
+    "Latitude": "43.4451522",
+    "Longitude": "-71.6912002"
+  },
+  {
+    "resortName": "Waterville Valley",
+    "Latitude": "43.9500695",
+    "Longitude": "-71.4995204"
+  },
+  {
+    "resortName": "Whaleback Mountain",
+    "Latitude": "43.601705",
+    "Longitude": "-72.180265"
+  },
+  {
+    "resortName": "Wildcat Mountain Resort",
+    "Latitude": "44.2640724",
+    "Longitude": "-71.2393036"
+  },
+  {
+    "resortName": "Big Snow American Dream",
+    "Latitude": "40.8094987",
+    "Longitude": "-74.0711355"
+  },
+  {
+    "resortName": "Campgaw",
+    "Latitude": "41.0586447",
+    "Longitude": "-74.1949637"
+  },
+  {
+    "resortName": "Mountain Creek",
+    "Latitude": "41.191883",
+    "Longitude": "-74.5029246"
+  },
+  {
+    "resortName": "National Winter Activity Center",
+    "Latitude": "41.1871439",
+    "Longitude": "-74.4815493"
+  },
+  {
+    "resortName": "Angel Fire Resort",
+    "Latitude": "36.3866879",
+    "Longitude": "-105.2721983"
+  },
+  {
+    "resortName": "Cloudcroft",
+    "Latitude": "32.9573133",
+    "Longitude": "-105.7424855"
+  },
+  {
+    "resortName": "Pajarito",
+    "Latitude": "5.2931929",
+    "Longitude": "-72.7028179"
+  },
+  {
+    "resortName": "Red River",
+    "Latitude": "36.7080849",
+    "Longitude": "-105.4061159"
+  },
+  {
+    "resortName": "Sandia Peak",
+    "Latitude": "35.2037063",
+    "Longitude": "-106.4505666"
+  },
+  {
+    "resortName": "Sipapu",
+    "Latitude": "36.1555831",
+    "Longitude": "-105.5505691"
+  },
+  {
+    "resortName": "Ski Apache",
+    "Latitude": "33.397328",
+    "Longitude": "-105.788716"
+  },
+  {
+    "resortName": "Ski Santa Fe",
+    "Latitude": "35.7963071",
+    "Longitude": "-105.8011674"
+  },
+  {
+    "resortName": "Taos Ski Valley",
+    "Latitude": "36.5959999",
+    "Longitude": "-105.4545"
+  },
+  {
+    "resortName": "Beartown Ski Area",
+    "Latitude": "44.7640957",
+    "Longitude": "-73.5837774"
+  },
+  {
+    "resortName": "Belleayre",
+    "Latitude": "42.1410908",
+    "Longitude": "-74.5019161"
+  },
+  {
+    "resortName": "Big Tupper",
+    "Latitude": "44.1737795",
+    "Longitude": "-74.4765953"
+  },
+  {
+    "resortName": "Brantling",
+    "Latitude": "43.1500556",
+    "Longitude": "-77.0657092"
+  },
+  {
+    "resortName": "Bristol Mountain",
+    "Latitude": "42.7453",
+    "Longitude": "-77.4043"
+  },
+  {
+    "resortName": "Buffalo Ski Center",
+    "Latitude": "42.680979",
+    "Longitude": "-78.69204"
+  },
+  {
+    "resortName": "Camillus Ski Hill",
+    "Latitude": "40.7127753",
+    "Longitude": "-74.0059728"
+  },
+  {
+    "resortName": "Cazenovia Ski Club",
+    "Latitude": "42.97673",
+    "Longitude": "-75.8557189"
+  },
+  {
+    "resortName": "Chestnut Ridge",
+    "Latitude": "40.1129616",
+    "Longitude": "-78.6114999"
+  },
+  {
+    "resortName": "Double H Ranch",
+    "Latitude": "43.3757057",
+    "Longitude": "-73.7894897"
+  },
+  {
+    "resortName": "Dry Hill",
+    "Latitude": "43.98",
+    "Longitude": "-75.91"
+  },
+  {
+    "resortName": "Dynamite Hill Recreation Area",
+    "Latitude": "43.6588964",
+    "Longitude": "-73.7966023"
+  },
+  {
+    "resortName": "Emery Park",
+    "Latitude": "42.7149612",
+    "Longitude": "-78.5972554"
+  },
+  {
+    "resortName": "Four Seasons Golf and Ski Center",
+    "Latitude": "43.2994285",
+    "Longitude": "-74.2179326"
+  },
+  {
+    "resortName": "Gore Mountain",
+    "Latitude": "43.6749627",
+    "Longitude": "-74.046371"
+  },
+  {
+    "resortName": "Greek Peak",
+    "Latitude": "42.5085935",
+    "Longitude": "-76.1448481"
+  },
+  {
+    "resortName": "Hickory Ski Center",
+    "Latitude": "43.2994285",
+    "Longitude": "-74.2179326"
+  },
+  {
+    "resortName": "Holiday Mountain",
+    "Latitude": "41.6295998",
+    "Longitude": "-74.6147972"
+  },
+  {
+    "resortName": "Holiday Valley",
+    "Latitude": "42.2625806",
+    "Longitude": "-78.6673967"
+  },
+  {
+    "resortName": "Holimont",
+    "Latitude": "42.2732483",
+    "Longitude": "-78.689067"
+  },
+  {
+    "resortName": "Hunt Hollow",
+    "Latitude": "42.6511775",
+    "Longitude": "-77.4769336"
+  },
+  {
+    "resortName": "Hunter Mountain",
+    "Latitude": "42.1778661",
+    "Longitude": "-74.2304216"
+  },
+  {
+    "resortName": "Kissing Bridge",
+    "Latitude": "42.5998353",
+    "Longitude": "-78.6524412"
+  },
+  {
+    "resortName": "Labrador Mountain",
+    "Latitude": "42.741791",
+    "Longitude": "-76.030215"
+  },
+  {
+    "resortName": "Maple Ski Ridge",
+    "Latitude": "42.817071",
+    "Longitude": "-74.0323068"
+  },
+  {
+    "resortName": "McCauley",
+    "Latitude": "43.74",
+    "Longitude": "-74.9"
+  },
+  {
+    "resortName": "Mount Peter",
+    "Latitude": "41.2414828",
+    "Longitude": "-74.2907059"
+  },
+  {
+    "resortName": "Oak Mountain   ",
+    "Latitude": "43.5139754",
+    "Longitude": "-74.3607386"
+  },
+  {
+    "resortName": "Peek'n Peak Resort",
+    "Latitude": "42.0623302",
+    "Longitude": "-79.7355401"
+  },
+  {
+    "resortName": "Plattekill",
+    "Latitude": "41.6239741",
+    "Longitude": "-74.0593872"
+  },
+  {
+    "resortName": "Powder Mills Park",
+    "Latitude": "43.0480515",
+    "Longitude": "-77.4774955"
+  },
+  {
+    "resortName": "Ridin' Hy Ranch",
+    "Latitude": "43.6322639",
+    "Longitude": "-73.7381417"
+  },
+  {
+    "resortName": "Rocking Horse Ranch",
+    "Latitude": "41.692411",
+    "Longitude": "-74.0173103"
+  },
+  {
+    "resortName": "Royal Mountain Ski Area",
+    "Latitude": "40.7127753",
+    "Longitude": "-74.0059728"
+  },
+  {
+    "resortName": "Skaneateles",
+    "Latitude": "42.947011",
+    "Longitude": "-76.4291017"
+  },
+  {
+    "resortName": "Ski Venture",
+    "Latitude": "42.9215432",
+    "Longitude": "-74.0363091"
+  },
+  {
+    "resortName": "Snow Ridge",
+    "Latitude": "43.6397478",
+    "Longitude": "-75.4201233"
+  },
+  {
+    "resortName": "Song Mountain",
+    "Latitude": "42.7739341",
+    "Longitude": "-76.1571146"
+  },
+  {
+    "resortName": "Swain",
+    "Latitude": "42.4778443",
+    "Longitude": "-77.8533322"
+  },
+  {
+    "resortName": "Thunder Ridge",
+    "Latitude": "41.5081012",
+    "Longitude": "-73.5850081"
+  },
+  {
+    "resortName": "Titus Mountain Family Ski Center",
+    "Latitude": "43.2994285",
+    "Longitude": "-74.2179326"
+  },
+  {
+    "resortName": "Toggenburg",
+    "Latitude": "42.84",
+    "Longitude": "-75.99"
+  },
+  {
+    "resortName": "Val Bialas Ski Center",
+    "Latitude": "43.2994285",
+    "Longitude": "-74.2179326"
+  },
+  {
+    "resortName": "Victor Constant Ski Area at West Point",
+    "Latitude": "41.3955293",
+    "Longitude": "-73.9835345"
+  },
+  {
+    "resortName": "Villa Roma Ski Resort",
+    "Latitude": "41.7627411",
+    "Longitude": "-74.9749298"
+  },
+  {
+    "resortName": "West Mountain",
+    "Latitude": "43.285651",
+    "Longitude": "-73.725285"
+  },
+  {
+    "resortName": "Whiteface (Lake Placid)",
+    "Latitude": "44.35",
+    "Longitude": "-73.86"
+  },
+  {
+    "resortName": "Willard Mountain",
+    "Latitude": "43.020657",
+    "Longitude": "-73.515881"
+  },
+  {
+    "resortName": "Windham",
+    "Latitude": "42.3073065",
+    "Longitude": "-74.2520875"
+  },
+  {
+    "resortName": "Woods Valley",
+    "Latitude": "33.6789981",
+    "Longitude": "-84.7788253"
+  },
+  {
+    "resortName": "Appalchian Ski Mountain",
+    "Latitude": "36.1745755",
+    "Longitude": "-81.6625748"
+  },
+  {
+    "resortName": "Beech Mountain",
+    "Latitude": "36.2109584",
+    "Longitude": "-81.8890031"
+  },
+  {
+    "resortName": "Cataloochee",
+    "Latitude": "35.6401005",
+    "Longitude": "-83.0801441"
+  },
+  {
+    "resortName": "Hatley Pointe",
+    "Latitude": "35.9547691",
+    "Longitude": "-82.5088477"
+  },
+  {
+    "resortName": "Sapphire Valley",
+    "Latitude": "35.1070374",
+    "Longitude": "-83.0029198"
+  },
+  {
+    "resortName": "Sugar Mountain",
+    "Latitude": "36.127349",
+    "Longitude": "-81.8601122"
+  },
+  {
+    "resortName": "Bottineau Winter Park",
+    "Latitude": "48.950695",
+    "Longitude": "-100.4749526"
+  },
+  {
+    "resortName": "Frost Fire Park",
+    "Latitude": "48.9119929",
+    "Longitude": "-98.0687408"
+  },
+  {
+    "resortName": "Huff Hills",
+    "Latitude": "46.627425",
+    "Longitude": "-100.723214"
+  },
+  {
+    "resortName": "Thrill Hills",
+    "Latitude": "46.5320298",
+    "Longitude": "-97.9355987"
+  },
+  {
+    "resortName": "Alpine Valley Resort",
+    "Latitude": "41.52687",
+    "Longitude": "-81.259745"
+  },
+  {
+    "resortName": "Big Creek Ski Area",
+    "Latitude": "41.6455268",
+    "Longitude": "-81.1832962"
+  },
+  {
+    "resortName": "Boston Mills",
+    "Latitude": "41.2648274",
+    "Longitude": "-81.5643802"
+  },
+  {
+    "resortName": "Mad River",
+    "Latitude": "40.06794764",
+    "Longitude": "-83.9115954"
+  },
+  {
+    "resortName": "Snow Trails",
+    "Latitude": "40.672657",
+    "Longitude": "-82.5008163"
+  },
+  {
+    "resortName": "Anthony Lakes",
+    "Latitude": "44.9595833",
+    "Longitude": "-118.2315508"
+  },
+  {
+    "resortName": "Cooper Spur",
+    "Latitude": "45.4124145",
+    "Longitude": "-121.6051177"
+  },
+  {
+    "resortName": "Ferguson Ridge",
+    "Latitude": "45.2816851",
+    "Longitude": "-117.1126418"
+  },
+  {
+    "resortName": "Hoodoo Ski Area",
+    "Latitude": "44.4086439",
+    "Longitude": "-121.8714158"
+  },
+  {
+    "resortName": "Mount Ashland",
+    "Latitude": "42.0806826",
+    "Longitude": "-122.716849"
+  },
+  {
+    "resortName": "Mount Bachelor",
+    "Latitude": "43.9791666",
+    "Longitude": "-121.6886111"
+  },
+  {
+    "resortName": "Mount Hood Meadows",
+    "Latitude": "45.3317552",
+    "Longitude": "-121.6651847"
+  },
+  {
+    "resortName": "Mount Hood Skibowl",
+    "Latitude": "45.3019084",
+    "Longitude": "-121.773296"
+  },
+  {
+    "resortName": "Spout Springs",
+    "Latitude": "35.2696039",
+    "Longitude": "-79.0597492"
+  },
+  {
+    "resortName": "Timberline Lodge (Inc. Summit)",
+    "Latitude": "43.575035",
+    "Longitude": "-83.3540649"
+  },
+  {
+    "resortName": "Warner Canyon",
+    "Latitude": "42.237374",
+    "Longitude": "-120.2946384"
+  },
+  {
+    "resortName": "Willamette Pass",
+    "Latitude": "43.600278",
+    "Longitude": "-122.035952"
+  },
+  {
+    "resortName": "Bear Creek Mountain Resort",
+    "Latitude": "40.4763102",
+    "Longitude": "-75.6255779"
+  },
+  {
+    "resortName": "Big Boulder",
+    "Latitude": "41.050189",
+    "Longitude": "-75.601282"
+  },
+  {
+    "resortName": "Blue Knob",
+    "Latitude": "40.2884091",
+    "Longitude": "-78.5616833"
+  },
+  {
+    "resortName": "Blue Mountain PA",
+    "Latitude": "40.1245315",
+    "Longitude": "-77.6663793"
+  },
+  {
+    "resortName": "Boyce Park",
+    "Latitude": "40.4666418",
+    "Longitude": "-79.744503"
+  },
+  {
+    "resortName": "Camelback Resort",
+    "Latitude": "41.0492313",
+    "Longitude": "-75.3511871"
+  },
+  {
+    "resortName": "Eagle Rock",
+    "Latitude": "40.92",
+    "Longitude": "-75.9"
+  },
+  {
+    "resortName": "Elk Mountain   ",
+    "Latitude": "41.7234046",
+    "Longitude": "-75.5534275"
+  },
+  {
+    "resortName": "Hidden Valley PA",
+    "Latitude": "40.1067745",
+    "Longitude": "-75.3779632"
+  },
+  {
+    "resortName": "Jack Frost Ski Resort",
+    "Latitude": "41.1075149",
+    "Longitude": "-75.6530785"
+  },
+  {
+    "resortName": "Laurel Mountain Ski Resort",
+    "Latitude": "40.1638863",
+    "Longitude": "-79.1653833"
+  },
+  {
+    "resortName": "Liberty Mountain Resort",
+    "Latitude": "39.76366",
+    "Longitude": "-77.375459"
+  },
+  {
+    "resortName": "Locust Lake Village",
+    "Latitude": "41.14129",
+    "Longitude": "-75.5480491"
+  },
+  {
+    "resortName": "Montage Mountain Resorts",
+    "Latitude": "41.3512429",
+    "Longitude": "-75.6629169"
+  },
+  {
+    "resortName": "Mount Pleasant",
+    "Latitude": "32.7906369",
+    "Longitude": "-79.8780297"
+  },
+  {
+    "resortName": "Mystic Mountain Ski Area",
+    "Latitude": "39.8072982",
+    "Longitude": "-79.5655972"
+  },
+  {
+    "resortName": "Pocono Ranchlands",
+    "Latitude": "41.1680471",
+    "Longitude": "-74.9507547"
+  },
+  {
+    "resortName": "Roundtop",
+    "Latitude": "30.0652201",
+    "Longitude": "-96.6960867"
+  },
+  {
+    "resortName": "Saw Creek",
+    "Latitude": "41.1125946",
+    "Longitude": "-75.0507305"
+  },
+  {
+    "resortName": "Seven Springs",
+    "Latitude": "40.0219309",
+    "Longitude": "-79.29024"
+  },
+  {
+    "resortName": "Shawnee Mountain",
+    "Latitude": "41.0396694",
+    "Longitude": "-75.0852961"
+  },
+  {
+    "resortName": "Ski Big Bear",
+    "Latitude": "41.5232598",
+    "Longitude": "-75.0250626"
+  },
+  {
+    "resortName": "Ski Denton",
+    "Latitude": "41.7747878",
+    "Longitude": "-78.0205602"
+  },
+  {
+    "resortName": "Ski Sawmill",
+    "Latitude": "41.5194205",
+    "Longitude": "-77.2893401"
+  },
+  {
+    "resortName": "Skytop Lodge",
+    "Latitude": "41.2282515",
+    "Longitude": "-75.2381928"
+  },
+  {
+    "resortName": "Spring Mountain   ",
+    "Latitude": "40.2756574",
+    "Longitude": "-75.4565657"
+  },
+  {
+    "resortName": "The Hideout",
+    "Latitude": "41.4361323",
+    "Longitude": "-75.3509132"
+  },
+  {
+    "resortName": "Tussey Mountain Ski Resort",
+    "Latitude": "40.769202",
+    "Longitude": "-77.7539318"
+  },
+  {
+    "resortName": "Whitetail Resort",
+    "Latitude": "39.7417652",
+    "Longitude": "-77.9333126"
+  },
+  {
+    "resortName": "Yawgoo",
+    "Latitude": "41.5175274",
+    "Longitude": "-71.5272242"
+  },
+  {
+    "resortName": "Deer Mountain Village",
+    "Latitude": "44.3083919",
+    "Longitude": "-103.8182534"
+  },
+  {
+    "resortName": "Great Bear Ski Valley",
+    "Latitude": "43.5780023",
+    "Longitude": "-96.6645469"
+  },
+  {
+    "resortName": "Terry Peak",
+    "Latitude": "44.3274841",
+    "Longitude": "-103.8352015"
+  },
+  {
+    "resortName": "Ober Mountain",
+    "Latitude": "35.714259",
+    "Longitude": "-83.5101638"
+  },
+  {
+    "resortName": "Alta",
+    "Latitude": "40.5888394",
+    "Longitude": "-111.6379793"
+  },
+  {
+    "resortName": "Beaver Mountain",
+    "Latitude": "41.968075",
+    "Longitude": "-111.544144"
+  },
+  {
+    "resortName": "Brian Head",
+    "Latitude": "37.6927551",
+    "Longitude": "-112.8507766"
+  },
+  {
+    "resortName": "Brighton",
+    "Latitude": "40.6",
+    "Longitude": "-111.58"
+  },
+  {
+    "resortName": "Buckskin Hills Ski and Tubing Hill",
+    "Latitude": "40.4783097",
+    "Longitude": "-109.433027"
+  },
+  {
+    "resortName": "Cherry Peak",
+    "Latitude": "41.9263482",
+    "Longitude": "-111.7564058"
+  },
+  {
+    "resortName": "Deer Valley",
+    "Latitude": "40.6226082",
+    "Longitude": "-111.485089"
+  },
+  {
+    "resortName": "Eagle Point",
+    "Latitude": "-37.8933646",
+    "Longitude": "147.6737286"
+  },
+  {
+    "resortName": "Gateway Parks Salt Lake",
+    "Latitude": "40.7907315",
+    "Longitude": "-111.9004553"
+  },
+  {
+    "resortName": "Gateway Spanish Forks",
+    "Latitude": "40.114955",
+    "Longitude": "-111.654923"
+  },
+  {
+    "resortName": "Nordic Valley",
+    "Latitude": "41.3013786",
+    "Longitude": "-111.8560438"
+  },
+  {
+    "resortName": "Park City",
+    "Latitude": "40.6460622",
+    "Longitude": "-111.4979729"
+  },
+  {
+    "resortName": "Powder Mountain",
+    "Latitude": "41.378963",
+    "Longitude": "-111.780685"
+  },
+  {
+    "resortName": "Snowbasin",
+    "Latitude": "41.2006148",
+    "Longitude": "-111.8614496"
+  },
+  {
+    "resortName": "Snowbird",
+    "Latitude": "40.5829259",
+    "Longitude": "-111.6556388"
+  },
+  {
+    "resortName": "Solitude",
+    "Latitude": "40.6207147",
+    "Longitude": "-111.5914881"
+  },
+  {
+    "resortName": "Sundance Resort",
+    "Latitude": "40.3934222",
+    "Longitude": "-111.5887709"
+  },
+  {
+    "resortName": "Utah Olympic Park",
+    "Latitude": "40.7117318",
+    "Longitude": "-111.5618557"
+  },
+  {
+    "resortName": "Wasatch Peaks Ranch",
+    "Latitude": "41.1000625",
+    "Longitude": "-111.8166875"
+  },
+  {
+    "resortName": "Woodward Park City",
+    "Latitude": "40.754513",
+    "Longitude": "-111.58564"
+  },
+  {
+    "resortName": "Ascutney",
+    "Latitude": "43.4445164",
+    "Longitude": "-72.4537019"
+  },
+  {
+    "resortName": "Bellows Falls",
+    "Latitude": "43.133411",
+    "Longitude": "-72.4439772"
+  },
+  {
+    "resortName": "Bolton Valley",
+    "Latitude": "44.4223862",
+    "Longitude": "-72.8512726"
+  },
+  {
+    "resortName": "Brattleboro",
+    "Latitude": "42.8509152",
+    "Longitude": "-72.5578678"
+  },
+  {
+    "resortName": "Bromley",
+    "Latitude": "43.23",
+    "Longitude": "-72.94"
+  },
+  {
+    "resortName": "Burke Mountain",
+    "Latitude": "44.5711658",
+    "Longitude": "-71.8923159"
+  },
+  {
+    "resortName": "Cochran's Ski Area",
+    "Latitude": "44.3952427",
+    "Longitude": "-72.9815631"
+  },
+  {
+    "resortName": "Haystack",
+    "Latitude": "42.92",
+    "Longitude": "-72.91"
+  },
+  {
+    "resortName": "Hermitage Club",
+    "Latitude": "42.9223962",
+    "Longitude": "-72.8947984"
+  },
+  {
+    "resortName": "Jay Peak",
+    "Latitude": "44.9649254",
+    "Longitude": "-72.4602429"
+  },
+  {
+    "resortName": "Killington",
+    "Latitude": "43.6775677",
+    "Longitude": "-72.7798247"
+  },
+  {
+    "resortName": "Lyndon Outing Club",
+    "Latitude": "44.5333103",
+    "Longitude": "-71.9872058"
+  },
+  {
+    "resortName": "Mad River Glen",
+    "Latitude": "44.2024842",
+    "Longitude": "-72.9175431"
+  },
+  {
+    "resortName": "Magic Mountain Ski Area",
+    "Latitude": "43.2017518",
+    "Longitude": "-72.7725584"
+  },
+  {
+    "resortName": " Middlebury Snowbowl",
+    "Latitude": "43.9391922",
+    "Longitude": "-72.9575872"
+  },
+  {
+    "resortName": "Mount Snow",
+    "Latitude": "42.9602444",
+    "Longitude": "-72.9204014"
+  },
+  {
+    "resortName": "Northeast Slopes",
+    "Latitude": "44.0726057",
+    "Longitude": "-72.2504924"
+  },
+  {
+    "resortName": "Okemo Mountain Resort",
+    "Latitude": "43.4104106",
+    "Longitude": "-72.7290044"
+  },
+  {
+    "resortName": "Pico Mountain Ski Resort",
+    "Latitude": "43.6617926",
+    "Longitude": "-72.8426568"
+  },
+  {
+    "resortName": "Quechee",
+    "Latitude": "43.646227",
+    "Longitude": "-72.4186105"
+  },
+  {
+    "resortName": "Smugglers' Notch",
+    "Latitude": "44.5553294",
+    "Longitude": "-72.795679"
+  },
+  {
+    "resortName": "Stowe",
+    "Latitude": "44.4654332",
+    "Longitude": "-72.6874023"
+  },
+  {
+    "resortName": "Stratton",
+    "Latitude": "43.0428562",
+    "Longitude": "-72.9109334"
+  },
+  {
+    "resortName": "Sugarbush",
+    "Latitude": "44.1361621",
+    "Longitude": "-72.9078617"
+  },
+  {
+    "resortName": "Saskadena Six",
+    "Latitude": "43.6650614",
+    "Longitude": "-72.5432659"
+  },
+  {
+    "resortName": "Vermont Tech",
+    "Latitude": "43.938717",
+    "Longitude": "-72.604721"
+  },
+  {
+    "resortName": "Bryce",
+    "Latitude": "37.6739665",
+    "Longitude": "-112.1564018"
+  },
+  {
+    "resortName": "Homestead Ski Slopes",
+    "Latitude": "37.9970597",
+    "Longitude": "-79.8247115"
+  },
+  {
+    "resortName": "Massanutten",
+    "Latitude": "38.4095701",
+    "Longitude": "-78.7378004"
+  },
+  {
+    "resortName": "Wintergreen",
+    "Latitude": "37.8848619",
+    "Longitude": "-78.8994672"
+  },
+  {
+    "resortName": "49� North Mountain Resort",
+    "Latitude": "48.3010972",
+    "Longitude": "-117.5629161"
+  },
+  {
+    "resortName": "Badger Mountain",
+    "Latitude": "46.2334679",
+    "Longitude": "-119.318352"
+  },
+  {
+    "resortName": "Bluewood",
+    "Latitude": "46.0824682",
+    "Longitude": "-117.8511137"
+  },
+  {
+    "resortName": "Crystal Mountain",
+    "Latitude": "46.9281666",
+    "Longitude": "-121.5045349"
+  },
+  {
+    "resortName": "Echo Valley Ski Area",
+    "Latitude": "47.9356859",
+    "Longitude": "-120.0553446"
+  },
+  {
+    "resortName": "Hurricane Ridge",
+    "Latitude": "47.9331457",
+    "Longitude": "-123.4096267"
+  },
+  {
+    "resortName": "Leavenworth Ski Hill",
+    "Latitude": "47.6141122",
+    "Longitude": "-120.668688"
+  },
+  {
+    "resortName": "Loup Loup Ski Bowl",
+    "Latitude": "48.3943616",
+    "Longitude": "-119.91097"
+  },
+  {
+    "resortName": "Meany Lodge",
+    "Latitude": "47.2803426",
+    "Longitude": "-121.3201943"
+  },
+  {
+    "resortName": "Mission Ridge",
+    "Latitude": "47.2924657",
+    "Longitude": "-120.399871"
+  },
+  {
+    "resortName": "Mt. Baker",
+    "Latitude": "48.7766868",
+    "Longitude": "-121.8144142"
+  },
+  {
+    "resortName": "Mt. Spokane",
+    "Latitude": "47.9229355",
+    "Longitude": "-117.1128596"
+  },
+  {
+    "resortName": "Sahalie Ski Club",
+    "Latitude": "38.9071923",
+    "Longitude": "-77.0368707"
+  },
+  {
+    "resortName": "Sitzmark Ski Hill",
+    "Latitude": "48.8639216",
+    "Longitude": "-119.165055"
+  },
+  {
+    "resortName": "Stevens Pass",
+    "Latitude": "47.7462223",
+    "Longitude": "-121.0859328"
+  },
+  {
+    "resortName": "Snoqualmie: Summit",
+    "Latitude": "47.4245012",
+    "Longitude": "-121.4161257"
+  },
+  {
+    "resortName": "White Pass",
+    "Latitude": "46.6387257",
+    "Longitude": "-121.3895281"
+  },
+  {
+    "resortName": "Canaan Valley",
+    "Latitude": "39.13483",
+    "Longitude": "-79.4044928"
+  },
+  {
+    "resortName": "Oglebay Ski Resort",
+    "Latitude": "40.1015149",
+    "Longitude": "-80.6696406"
+  },
+  {
+    "resortName": "Silver Creek (Snowshoe)",
+    "Latitude": "38.4405539",
+    "Longitude": "-79.9892094"
+  },
+  {
+    "resortName": "Snowshoe/Western Territory",
+    "Latitude": "38.4132303",
+    "Longitude": "-79.9975177"
+  },
+  {
+    "resortName": "Timberline Mountain",
+    "Latitude": "39.042453",
+    "Longitude": "-79.39903"
+  },
+  {
+    "resortName": "Winterplace",
+    "Latitude": "37.595649",
+    "Longitude": "-81.1197612"
+  },
+  {
+    "resortName": "Alpine Valley Resort",
+    "Latitude": "42.7358247",
+    "Longitude": "-88.4280499"
+  },
+  {
+    "resortName": "Ausblick Ski Club",
+    "Latitude": "43.1347222",
+    "Longitude": "-88.2644444"
+  },
+  {
+    "resortName": "Blackhawk Ski Club",
+    "Latitude": "43.0823278",
+    "Longitude": "-89.570179"
+  },
+  {
+    "resortName": "Bruce Mound",
+    "Latitude": "44.4438509",
+    "Longitude": "-90.7923656"
+  },
+  {
+    "resortName": "Camp 10 Ski Area",
+    "Latitude": "45.5491829",
+    "Longitude": "-89.5029403"
+  },
+  {
+    "resortName": "Cascade Mountain",
+    "Latitude": "43.5037245",
+    "Longitude": "-89.5172569"
+  },
+  {
+    "resortName": "Christie Mountain",
+    "Latitude": "45.5090925",
+    "Longitude": "-91.3808238"
+  },
+  {
+    "resortName": "Christmas Mountain Village Ski Resort",
+    "Latitude": "43.609581",
+    "Longitude": "-89.861353"
+  },
+  {
+    "resortName": "Crystal Ridge",
+    "Latitude": "50.735255",
+    "Longitude": "-113.9543253"
+  },
+  {
+    "resortName": "Devil's Head",
+    "Latitude": "43.4180036",
+    "Longitude": "-89.6268972"
+  },
+  {
+    "resortName": "Fox Hill Ski Area",
+    "Latitude": "43.7844397",
+    "Longitude": "-88.7878678"
+  },
+  {
+    "resortName": "Grand Geneva (Mountain Top)",
+    "Latitude": "42.6124188",
+    "Longitude": "-88.3861443"
+  },
+  {
+    "resortName": "Granite Peak Ski Area",
+    "Latitude": "44.929236",
+    "Longitude": "-89.683162"
+  },
+  {
+    "resortName": "Heiliger Huegel Ski Club",
+    "Latitude": "43.2521171",
+    "Longitude": "-88.3111343"
+  },
+  {
+    "resortName": "Kettlebowl",
+    "Latitude": "45.2718886",
+    "Longitude": "-88.9014189"
+  },
+  {
+    "resortName": "Keyes Peak",
+    "Latitude": "45.8957901",
+    "Longitude": "-88.2993698"
+  },
+  {
+    "resortName": "Little Switzerland",
+    "Latitude": "43.3379806",
+    "Longitude": "-88.2789411"
+  },
+  {
+    "resortName": "Mount Ashwabay",
+    "Latitude": "46.7772767",
+    "Longitude": "-90.896142"
+  },
+  {
+    "resortName": "Mount La Crosse",
+    "Latitude": "43.74347",
+    "Longitude": "-91.182726"
+  },
+  {
+    "resortName": "Mont du Lac Resort",
+    "Latitude": "46.651616",
+    "Longitude": "-92.2843354"
+  },
+  {
+    "resortName": "Nordic Mountain",
+    "Latitude": "44.1214576",
+    "Longitude": "-89.1812815"
+  },
+  {
+    "resortName": "Nutt Hill Ski Area",
+    "Latitude": "43.7505713",
+    "Longitude": "-87.9906017"
+  },
+  {
+    "resortName": "Paul Bunyan Ski Hill",
+    "Latitude": "45.3255767",
+    "Longitude": "-88.5242538"
+  },
+  {
+    "resortName": "Pinehurst Park",
+    "Latitude": "44.8529254",
+    "Longitude": "-91.453135"
+  },
+  {
+    "resortName": "Powers Bluff County Park",
+    "Latitude": "44.5261709",
+    "Longitude": "-90.0659573"
+  },
+  {
+    "resortName": "Standing Rocks Park",
+    "Latitude": "44.4310915",
+    "Longitude": "-89.4014738"
+  },
+  {
+    "resortName": "Sunburst",
+    "Latitude": "43.493936",
+    "Longitude": "-88.224007"
+  },
+  {
+    "resortName": "Sunset Hill at Forest Springs",
+    "Latitude": "43.7844397",
+    "Longitude": "-88.7878678"
+  },
+  {
+    "resortName": "Triangle Sports Area",
+    "Latitude": "44.510113",
+    "Longitude": "-87.95075"
+  },
+  {
+    "resortName": "Trollhaugen",
+    "Latitude": "45.3513159",
+    "Longitude": "-92.6180935"
+  },
+  {
+    "resortName": "Tyrol Basin",
+    "Latitude": "43.0445285",
+    "Longitude": "-89.7841088"
+  },
+  {
+    "resortName": "Whitecap Mountains",
+    "Latitude": "46.4069352",
+    "Longitude": "-90.3969777"
+  },
+  {
+    "resortName": "Whitetail Ridge",
+    "Latitude": "41.6117275",
+    "Longitude": "-88.370559"
+  },
+  {
+    "resortName": "Wilmot",
+    "Latitude": "42.5130426",
+    "Longitude": "-88.1825133"
+  },
+  {
+    "resortName": "Winter Park (Keewaunee )",
+    "Latitude": "44.459461",
+    "Longitude": "-87.559558"
+  },
+  {
+    "resortName": "Antelope Butte Mountain Recreation Area",
+    "Latitude": "44.6124452",
+    "Longitude": "-107.5145248"
+  },
+  {
+    "resortName": "Beartooth Basin",
+    "Latitude": "44.9751148",
+    "Longitude": "-109.4347501"
+  },
+  {
+    "resortName": "Meadowlark Ski Area and Lodge",
+    "Latitude": "44.1739654",
+    "Longitude": "-107.213684"
+  },
+  {
+    "resortName": "Grand Targhee",
+    "Latitude": "43.7835908",
+    "Longitude": "-110.9464028"
+  },
+  {
+    "resortName": "Hogadon Basin",
+    "Latitude": "42.7452867",
+    "Longitude": "-106.3389955"
+  },
+  {
+    "resortName": "Jackson Hole",
+    "Latitude": "43.612255",
+    "Longitude": "-110.7054295"
+  },
+  {
+    "resortName": "Pine Creek Ski Resort",
+    "Latitude": "42.1029457",
+    "Longitude": "-110.8287957"
+  },
+  {
+    "resortName": "Sleeping Giant Ski Area",
+    "Latitude": "44.4929236",
+    "Longitude": "-109.9394434"
+  },
+  {
+    "resortName": "Snow King Mountain",
+    "Latitude": "43.4728087",
+    "Longitude": "-110.7560353"
+  },
+  {
+    "resortName": "Snowy Range",
+    "Latitude": "41.3412218",
+    "Longitude": "-106.1835168"
+  },
+  {
+    "resortName": "White Pine Ski Area",
+    "Latitude": "42.9778494",
+    "Longitude": "-109.7586597"
+  },
+  {
+    "resortName": "Banff Sunshine",
+    "Latitude": "51.0785162",
+    "Longitude": "-115.7764617"
+  },
+  {
+    "resortName": "Castle Mountain Resort",
+    "Latitude": "49.3191188",
+    "Longitude": "-114.4125829"
+  },
+  {
+    "resortName": "Lake Louise",
+    "Latitude": "51.4253705",
+    "Longitude": "-116.1772552"
+  },
+  {
+    "resortName": "Marmot Basin",
+    "Latitude": "52.8011121",
+    "Longitude": "-118.0831592"
+  },
+  {
+    "resortName": "Mt. Norquay",
+    "Latitude": "51.2053287",
+    "Longitude": "-115.6067986"
+  },
+  {
+    "resortName": "Nakiska",
+    "Latitude": "50.9427038",
+    "Longitude": "-115.1510985"
+  },
+  {
+    "resortName": "Pass Powderkeg Ski Area",
+    "Latitude": "49.6026978",
+    "Longitude": "-114.4447799"
+  },
+  {
+    "resortName": "Apex Mountain Resort",
+    "Latitude": "49.4991381",
+    "Longitude": "-119.5937077"
+  },
+  {
+    "resortName": "Baldy Mountain Resort",
+    "Latitude": "49.1528412",
+    "Longitude": "-119.2364219"
+  },
+  {
+    "resortName": "Big White Ski Resort",
+    "Latitude": "56.130366",
+    "Longitude": "-106.346771"
+  },
+  {
+    "resortName": "Cypress Mountain",
+    "Latitude": "49.3388888",
+    "Longitude": "-122.8077777"
+  },
+  {
+    "resortName": "Fairmont Hot Springs",
+    "Latitude": "46.0429809",
+    "Longitude": "-112.8100362"
+  },
+  {
+    "resortName": "Fernie",
+    "Latitude": "49.5040452",
+    "Longitude": "-115.063065"
+  },
+  {
+    "resortName": "Hudson Bay Mountain",
+    "Latitude": "54.8116666",
+    "Longitude": "-127.3397222"
+  },
+  {
+    "resortName": "Kicking Horse Mountain Resort",
+    "Latitude": "51.2975688",
+    "Longitude": "-117.0482516"
+  },
+  {
+    "resortName": "Kimberley Alpine Resort",
+    "Latitude": "49.6878857",
+    "Longitude": "-116.0048143"
+  },
+  {
+    "resortName": "Manning Park",
+    "Latitude": "49.064647",
+    "Longitude": "-120.781581"
+  },
+  {
+    "resortName": "Mount Washington Alpine",
+    "Latitude": "49.7413173",
+    "Longitude": "-125.3030741"
+  },
+  {
+    "resortName": "Panorama Moutain Resort",
+    "Latitude": "50.4602801",
+    "Longitude": "-116.2380671"
+  },
+  {
+    "resortName": "Phoenix Mountain",
+    "Latitude": "33.4483771",
+    "Longitude": "-112.0740373"
+  },
+  {
+    "resortName": "Red Mountain Resort",
+    "Latitude": "49.1024147",
+    "Longitude": "-117.8194705"
+  },
+  {
+    "resortName": "Revelstoke",
+    "Latitude": "50.998115",
+    "Longitude": "-118.195672"
+  },
+  {
+    "resortName": "Sasquatch Mountain Resort",
+    "Latitude": "49.379918",
+    "Longitude": "-121.9354691"
+  },
+  {
+    "resortName": "Shames Mountain",
+    "Latitude": "54.5154929",
+    "Longitude": "-128.5997466"
+  },
+  {
+    "resortName": "Silver Star Mountain",
+    "Latitude": "50.3694444",
+    "Longitude": "-119.0636111"
+  },
+  {
+    "resortName": "Sun Peaks",
+    "Latitude": "50.8815578",
+    "Longitude": "-119.8972041"
+  },
+  {
+    "resortName": "Whistler Blackcomb",
+    "Latitude": "50.1161686",
+    "Longitude": "-122.9535117"
+  },
+  {
+    "resortName": "Ski Cape Smokey",
+    "Latitude": "46.627645",
+    "Longitude": "-60.421958"
+  },
+  {
+    "resortName": "Blue Mountain Ski Resort",
+    "Latitude": "44.5010785",
+    "Longitude": "-80.3160997"
+  },
+  {
+    "resortName": "Calabogie Peaks",
+    "Latitude": "45.274401",
+    "Longitude": "-76.7803903"
+  },
+  {
+    "resortName": "Loch Lomond Ski Area",
+    "Latitude": "48.2939871",
+    "Longitude": "-89.3482353"
+  },
+  {
+    "resortName": "Ski Mount Baldy",
+    "Latitude": "48.5258002",
+    "Longitude": "-89.1282432"
+  },
+  {
+    "resortName": "Searchmont",
+    "Latitude": "46.778645",
+    "Longitude": "-84.051335"
+  },
+  {
+    "resortName": "Bromont",
+    "Latitude": "45.3179544",
+    "Longitude": "-72.6569259"
+  },
+  {
+    "resortName": "Camp Fortune",
+    "Latitude": "45.5090169",
+    "Longitude": "-75.8512242"
+  },
+  {
+    "resortName": "Le Massif du Charlevoix",
+    "Latitude": "47.4412031",
+    "Longitude": "-70.5053991"
+  },
+  {
+    "resortName": "Massif du Sud",
+    "Latitude": "46.621511",
+    "Longitude": "-70.4897305"
+  },
+  {
+    "resortName": "Mont Rigaud",
+    "Latitude": "45.455",
+    "Longitude": "-74.294167"
+  },
+  {
+    "resortName": "Mont-Sainte Anne",
+    "Latitude": "47.0751973",
+    "Longitude": "-70.9066743"
+  },
+  {
+    "resortName": "Mont Tremblant",
+    "Latitude": "46.1184616",
+    "Longitude": "-74.5961852"
+  },
+  {
+    "resortName": "Stoneham",
+    "Latitude": "47.12095",
+    "Longitude": "-71.409135"
+  },
+  {
+    "resortName": "ANDORRA",
+    "Latitude": "42.506285",
+    "Longitude": "1.521801"
+  },
+  {
+    "resortName": "Grandvalira",
+    "Latitude": "42.5786601",
+    "Longitude": "1.6463181"
+  },
+  {
+    "resortName": "Innsbruck Resorts",
+    "Latitude": "47.2675322",
+    "Longitude": "11.3910349"
+  },
+  {
+    "resortName": "Kitzbuhel ",
+    "Latitude": "47.4492375",
+    "Longitude": "12.3925407"
+  },
+  {
+    "resortName": "Ski Arlberg",
+    "Latitude": "47.1291555",
+    "Longitude": "10.2639663"
+  },
+  {
+    "resortName": "Ski Welt",
+    "Latitude": "47.5031128",
+    "Longitude": "12.1908727"
+  },
+  {
+    "resortName": "Mala Upa",
+    "Latitude": "50.7448469",
+    "Longitude": "15.8205392"
+  },
+  {
+    "resortName": "The Snow Centre",
+    "Latitude": "51.7450652",
+    "Longitude": "-0.4587803"
+  },
+  {
+    "resortName": "Trafford City Snow Centre",
+    "Latitude": "53.4215129",
+    "Longitude": "-2.3517259"
+  },
+  {
+    "resortName": "Les 3 Vallees",
+    "Latitude": "45.39",
+    "Longitude": "6.59"
+  },
+  {
+    "resortName": "Chamonix",
+    "Latitude": "45.923697",
+    "Longitude": "6.869433"
+  },
+  {
+    "resortName": "Megeve Ski Resort",
+    "Latitude": "45.8498497",
+    "Longitude": "6.614984"
+  },
+  {
+    "resortName": "Dolomiti Superski",
+    "Latitude": "46.5739752",
+    "Longitude": "11.6520936"
+  },
+  {
+    "resortName": "Skirama Dolomiti",
+    "Latitude": "46.4102117",
+    "Longitude": "11.8440351"
+  },
+  {
+    "resortName": "Glencoe",
+    "Latitude": "56.6825599",
+    "Longitude": "-5.1022713"
+  },
+  {
+    "resortName": "Baqueria Beret",
+    "Latitude": "42.683333",
+    "Longitude": "0.933333"
+  },
+  {
+    "resortName": "Masella",
+    "Latitude": "42.3498798",
+    "Longitude": "1.9006998"
+  },
+  {
+    "resortName": "Andermatt-Sedrun",
+    "Latitude": "46.6339116",
+    "Longitude": "8.5935627"
+  },
+  {
+    "resortName": "Crans-Montana",
+    "Latitude": "46.3118579",
+    "Longitude": "7.4823527"
+  },
+  {
+    "resortName": "Disentis",
+    "Latitude": "46.7051127",
+    "Longitude": "8.8523754"
+  },
+  {
+    "resortName": "St. Moritz",
+    "Latitude": "46.4907973",
+    "Longitude": "9.8355079"
+  },
+  {
+    "resortName": "Verbier",
+    "Latitude": "46.0960814",
+    "Longitude": "7.2285512"
+  },
+  {
+    "resortName": "Zermatt",
+    "Latitude": "46.0207133",
+    "Longitude": "7.749117"
+  },
+  {
+    "resortName": "Erciyes Ski Resort",
+    "Latitude": "38.538985",
+    "Longitude": "35.5266161"
+  },
+  {
+    "resortName": "Tazawako",
+    "Latitude": "39.7168527",
+    "Longitude": "140.6544861"
+  },
+  {
+    "resortName": "Palcall Tsumagoi",
+    "Latitude": "36.5557618",
+    "Longitude": "138.4639807"
+  },
+  {
+    "resortName": "Dynaland Ski Resort",
+    "Latitude": "35.9902088",
+    "Longitude": "136.8705351"
+  },
+  {
+    "resortName": "Hirugano Kogen",
+    "Latitude": "36.0055472",
+    "Longitude": "136.9085684"
+  },
+  {
+    "resortName": "Takasu Snow Park",
+    "Latitude": "35.9982091",
+    "Longitude": "136.8773292"
+  },
+  {
+    "resortName": "Washigatake",
+    "Latitude": "35.940337",
+    "Longitude": "136.9716762"
+  },
+  {
+    "resortName": "White Pia Takasu",
+    "Latitude": "35.9558169",
+    "Longitude": "136.9348753"
+  },
+  {
+    "resortName": "Kamui Ski Links",
+    "Latitude": "43.704967",
+    "Longitude": "142.187102"
+  },
+  {
+    "resortName": "Kiroro Ski Resort",
+    "Latitude": "43.0755451",
+    "Longitude": "140.9834601"
+  },
+  {
+    "resortName": "Nayoro Piyashiri",
+    "Latitude": "44.4044208",
+    "Longitude": "142.51344"
+  },
+  {
+    "resortName": "Niseko United",
+    "Latitude": "42.8047856",
+    "Longitude": "140.6874494"
+  },
+  {
+    "resortName": "Pippu",
+    "Latitude": "43.875077",
+    "Longitude": "142.4777157"
+  },
+  {
+    "resortName": "Rusutsu",
+    "Latitude": "42.7373349",
+    "Longitude": "140.8757346"
+  },
+  {
+    "resortName": "Yubari (Mount Racey)",
+    "Latitude": "43.051373",
+    "Longitude": "141.9694165"
+  },
+  {
+    "resortName": "Amihari",
+    "Latitude": "39.7897533",
+    "Longitude": "140.9448371"
+  },
+  {
+    "resortName": "Geto Kogen",
+    "Latitude": "39.2366246",
+    "Longitude": "140.9062609"
+  },
+  {
+    "resortName": "Okunakayama Kogen",
+    "Latitude": "40.0831987",
+    "Longitude": "141.1912904"
+  },
+  {
+    "resortName": "Hachimantai Resort Shimokura Ski Area",
+    "Latitude": "39.8990404",
+    "Longitude": "140.9568902"
+  },
+  {
+    "resortName": "Able Hakuba Goryu",
+    "Latitude": "36.662937",
+    "Longitude": "137.836664"
+  },
+  {
+    "resortName": "Hakuba 47",
+    "Latitude": "36.685",
+    "Longitude": "137.8283333"
+  },
+  {
+    "resortName": "Hakuba Cortina",
+    "Latitude": "36.7770681",
+    "Longitude": "137.8851453"
+  },
+  {
+    "resortName": "Hakuba Happo-One",
+    "Latitude": "36.7019841",
+    "Longitude": "137.8369446"
+  },
+  {
+    "resortName": "Hakuba Iwatake",
+    "Latitude": "36.7168942",
+    "Longitude": "137.8588322"
+  },
+  {
+    "resortName": "Hakuba Norikura",
+    "Latitude": "36.7658832",
+    "Longitude": "137.8739806"
+  },
+  {
+    "resortName": "Hakuba Sanosaka",
+    "Latitude": "36.629392",
+    "Longitude": "137.841677"
+  },
+  {
+    "resortName": "Jiigatake",
+    "Latitude": "36.5883519",
+    "Longitude": "137.7509068"
+  },
+  {
+    "resortName": "Kashimayari",
+    "Latitude": "36.5969431",
+    "Longitude": "137.8254561"
+  },
+  {
+    "resortName": "Madarao",
+    "Latitude": "36.8524572",
+    "Longitude": "138.2906058"
+  },
+  {
+    "resortName": "Tangram Ski Circus",
+    "Latitude": "36.8533811",
+    "Longitude": "138.262998"
+  },
+  {
+    "resortName": "Togakushi",
+    "Latitude": "36.7313098",
+    "Longitude": "138.0763094"
+  },
+  {
+    "resortName": "Tsugaike Kogen Ski Resort",
+    "Latitude": "36.7489715",
+    "Longitude": "137.8661573"
+  },
+  {
+    "resortName": "lotte arai resort ",
+    "Latitude": "36.9905198",
+    "Longitude": "138.1813323"
+  },
+  {
+    "resortName": "Cupid Valley Ski Resort",
+    "Latitude": "37.055035",
+    "Longitude": "138.4845041"
+  },
+  {
+    "resortName": "Maiko Snow Resort",
+    "Latitude": "36.9828206",
+    "Longitude": "138.8249672"
+  },
+  {
+    "resortName": "Muica Snow Resort",
+    "Latitude": "37.0714127",
+    "Longitude": "138.8460142"
+  },
+  {
+    "resortName": "Ninox Snow Park",
+    "Latitude": "37.9268164",
+    "Longitude": "139.4679026"
+  },
+  {
+    "resortName": "Yuzawa Nakazato",
+    "Latitude": "36.9141426",
+    "Longitude": "138.8490268"
+  },
+  {
+    "resortName": "Ani Ski Resort",
+    "Latitude": "39.9573111",
+    "Longitude": "140.49767"
+  },
+  {
+    "resortName": "Aomori Spring",
+    "Latitude": "40.693185",
+    "Longitude": "140.2793"
+  },
+  {
+    "resortName": "La Parva",
+    "Latitude": "-33.3366134",
+    "Longitude": "-70.2895661"
+  },
+  {
+    "resortName": "Valle Nevado",
+    "Latitude": "-33.3557958",
+    "Longitude": "-70.2525563"
+  },
+  {
+    "resortName": "Falls Creek",
+    "Latitude": "-36.8646894",
+    "Longitude": "147.279182"
+  },
+  {
+    "resortName": "Hotham",
+    "Latitude": "53.799821",
+    "Longitude": "-0.640113"
+  },
+  {
+    "resortName": "Mt. Buller",
+    "Latitude": "-37.1465655",
+    "Longitude": "146.4506354"
+  },
+  {
+    "resortName": "Perisher",
+    "Latitude": "-36.4058898",
+    "Longitude": "148.4117257"
+  },
+  {
+    "resortName": "Thredbo",
+    "Latitude": "-36.4990449",
+    "Longitude": "148.3118522"
+  },
+  {
+    "resortName": "Coronet Peak",
+    "Latitude": "-44.9271654",
+    "Longitude": "168.7362725"
+  },
+  {
+    "resortName": "Mt. Hutt Ski Area",
+    "Latitude": "-43.4956884",
+    "Longitude": "171.5400686"
+  },
+  {
+    "resortName": "The Remarkables",
+    "Latitude": "-45.15",
+    "Longitude": "168.8333333"
+  },
+  {
+    "resortName": "Turoa Ski Area",
+    "Latitude": "-39.3043775",
+    "Longitude": "175.5269275"
+  },
+  {
+    "resortName": "Whakapapa",
+    "Latitude": "-39.2367589",
+    "Longitude": "175.5564999"
+  }
+]

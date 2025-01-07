@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powder Alert Map</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="./style_heatmap.css">
+</head>
+<body>
+    <div id="map-container">
+        <div id="sidebar">
+            <div id="search-container">
+                <input type="text" id="search-bar" placeholder="Search for resorts...">
+                <div id="search-results"></div>
+            </div>
+            <button id="toggle-markers">Toggle Resort Markers</button>
+            <div id="top-10-snowfalls">
+                <h4>Top 10 Snowfalls (Last 24 Hours)</h4>
+                <ul id="snowfall-list"></ul>
+            </div>
+            <div id="heatmap-legend">
+                <h4>Snowfall Intensity</h4>
+                <div class="legend-item"><span class="low"></span>Low (1–5 inches)</div>
+                <div class="legend-item"><span class="medium"></span>Medium (5–12 inches)</div>
+                <div class="legend-item"><span class="high"></span>High (>12 inches)</div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoiam5yNDciLCJhIjoiY200azAzNHo3MGs5MTJpcTRxejE1cmp0NSJ9.YpIGfQ1PZljzCJ7EhCjz4A';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/outdoors-v11',
+            center: [-106.48, 39.63], // Center in Colorado
+            zoom: 5
+        });
+
+        let resorts = []; // Global variable to store resort data
+
+        async function addHeatmapAndMarkers() {
+            try {
+                const response = await fetch('./resorts_with_snowfall.json');
+                const data = await response.json();
+                resorts = data; // Assign data to global variable
+                console.log("Resorts data loaded:", resorts);
+
+                const geojson = {
+                    type: 'FeatureCollection',
+                    features: data.map(resort => ({
+                        type: 'Feature',
+                        geometry: {
+                            type: 'Point',
+                            coordinates: [parseFloat(resort.longitude), parseFloat(resort.latitude)]
+                        },
+                        properties: {
+                            name: resort.resortName,
+                            snowfall: parseFloat(resort.snowfall.replace('in', ''))
+                        }
+                    }))
+                };
+
+                map.addSource('resorts', { type: 'geojson', data: geojson });
+
+                map.addLayer({
+                    id: 'resort-heatmap',
+                    type: 'heatmap',
+                    source: 'resorts',
+                    paint: {
+                        'heatmap-weight': ['interpolate', ['linear'], ['get', 'snowfall'], 0, 0, 12, 1],
+                        'heatmap-color': [
+                            'interpolate',
+                            ['linear'],
+                            ['heatmap-density'],
+                            0, 'rgba(33,102,172,0)',
+                            0.2, 'rgb(173,216,230)',
+                            0.5, 'rgb(253,219,199)',
+                            1, 'rgb(178,24,43)'
+                        ],
+                        'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 0, 20, 9, 50, 15, 100],
+                        'heatmap-opacity': 0.8
+                    }
+                });
+
+                map.addLayer({
+                    id: 'resort-points',
+                    type: 'circle',
+                    source: 'resorts',
+                    layout: { visibility: 'visible' },
+                    paint: {
+                        'circle-radius': 6,
+                        'circle-color': '#007cbf',
+                        'circle-stroke-width': 2,
+                        'circle-stroke-color': '#ffffff'
+                    }
+                });
+
+                map.on('click', 'resort-points', (e) => {
+                    const coordinates = e.features[0].geometry.coordinates.slice();
+                    const { name, snowfall } = e.features[0].properties;
+
+                    new mapboxgl.Popup()
+                        .setLngLat(coordinates)
+                        .setHTML(`
+                            <div>
+                                <h3>${name}</h3>
+                                <p><strong>Snowfall:</strong> ${snowfall} inches</p>
+                            </div>
+                        `)
+                        .addTo(map);
+                });
+
+                const topSnowfalls = data
+                    .sort((a, b) => parseFloat(b.snowfall.replace('in', '')) - parseFloat(a.snowfall.replace('in', '')))
+                    .slice(0, 10);
+
+                const snowfallList = document.getElementById('snowfall-list');
+                snowfallList.innerHTML = topSnowfalls.map(resort =>
+                    `<li>${resort.resortName}: ${resort.snowfall} of snowfall</li>`
+                ).join('');
+
+            } catch (error) {
+                console.error('Error loading heatmap and markers:', error);
+            }
+        }
+
+        map.on('load', addHeatmapAndMarkers);
+
+        document.getElementById('toggle-markers').addEventListener('click', () => {
+            const visibility = map.getLayoutProperty('resort-points', 'visibility');
+            map.setLayoutProperty('resort-points', 'visibility', visibility === 'visible' ? 'none' : 'visible');
+        });
+
+       // Search functionality
+document.getElementById('search-bar').addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = ''; // Clear previous results
+
+    console.log('Search query:', query); // Log the search query
+
+    if (query.length > 0) {
+        const filteredResorts = resorts.filter(resort =>
+            resort.resortName.toLowerCase().includes(query)
+        );
+
+        console.log('Filtered resorts:', filteredResorts); // Log filtered resorts
+
+        filteredResorts.forEach(resort => {
+            const resultDiv = document.createElement('div');
+            resultDiv.textContent = resort.resortName;
+            resultDiv.style.cursor = 'pointer';
+            resultDiv.style.padding = '5px';
+            resultDiv.style.borderBottom = '1px solid #ccc';
+            resultDiv.style.backgroundColor = '#f8f8f8'; // Ensure visibility
+            resultDiv.style.color = '#000'; // Text color for visibility
+
+            // Add click event to zoom to location
+            resultDiv.addEventListener('click', function () {
+                const lat = parseFloat(resort.latitude);
+                const lng = parseFloat(resort.longitude);
+
+                console.log(`Flying to resort: ${resort.resortName}, Lat: ${lat}, Lng: ${lng}`);
+                map.flyTo({ center: [lng, lat], zoom: 10 });
+                document.getElementById('search-bar').value = resort.resortName;
+                resultsContainer.innerHTML = ''; // Clear results
+                resultsContainer.style.border = 'none'; // Reset border
+            });
+
+            console.log('Appending resultDiv:', resultDiv); // Debugging log
+            resultsContainer.appendChild(resultDiv); // Append to the container
+        });
+
+        if (filteredResorts.length > 0) {
+            resultsContainer.style.display = 'block'; // Show results
+            resultsContainer.style.border = '1px solid #ccc'; // Ensure container is styled
+            resultsContainer.style.backgroundColor = '#fff'; // Background for visibility
+        } else {
+            console.log('No matching resorts found.');
+            resultsContainer.style.display = 'none'; // Hide results if no matches
+        }
+    } else {
+        resultsContainer.style.display = 'none'; // Hide results if query is empty
+    }
+});
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+/* Root Variables */
+:root {
+  --navbar-width: 256px;
+  --navbar-dark-primary: rgba(24, 40, 59, 0.9);
+  --navbar-highlight: rgba(255, 255, 255, 0.2);
+  --navbar-text-light: #f5f6fa;
+  --navbar-text-secondary: #8392a5;
+  --border-spacing: 30px;
+  --border-thickness: 10px;
+  --map-radius: 20px;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #b3c7e3; /* Light Blue: Pantone 277M */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Map Container Styling */
+#map-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 90%; /* Adjust width as needed */
+  height: 85vh; /* Adjust height as needed */
+  border-radius: var(--map-radius); /* Rounded corners */
+  overflow: hidden; /* Ensure no overflow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Subtle shadow for depth */
+  border: 10px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+  background-color: #e6eef7; /* Fallback background color */
+}
+
+/* Sidebar for Tools and Information */
+#sidebar {
+  width: 300px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Map Styling */
+#map {
+  flex-grow: 1;
+  height: 100%;
+  border-radius: inherit; /* Inherit the parent’s rounded corners */
+}
+
+/* Search Bar Styling */
+#search-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+#search-results {
+  position: absolute;
+  top: 50px; /* Adjust based on layout */
+  left: 10px; /* Adjust based on layout */
+  width: calc(100% - 20px); /* Fit inside the sidebar */
+  max-height: 200px; /* Prevent overflowing */
+  overflow-y: auto; /* Scroll if needed */
+  border: 1px solid #ccc; /* Add a border for visibility */
+  background-color: #fff; /* Ensure a white background */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: block; /* Force it to show for debugging */
+}
+
+#search-results div {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+#search-results div:hover {
+  background-color: #f0f0f0;
+}
+
+/* Heatmap Legend Styling */
+#heatmap-legend {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+#heatmap-legend h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-item span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.legend-item .low {
+  background: rgba(33,102,172,0);
+}
+
+.legend-item .medium {
+  background: rgb(209,229,240);
+}
+
+.legend-item .high {
+  background: rgb(178,24,43);
+}
+
+/* Top 10 Snowfalls */
+#top-10-snowfalls {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#top-10-snowfalls h4 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+#snowfall-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#snowfall-list li {
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+#map-container {
+  margin: 0; /* Ensure no unintended margin around the map container */
+  padding: 0; /* Ensure no padding is affecting the layout */
+}
+
+#sidebar {
+  margin: 0; /* Ensure no margin causing the sidebar to push anything */
+  padding: 0; /* Clean padding */
+}
+
+#search-container {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0; /* Remove any body-level margins */
+  padding: 0;
+}
+/* Additional styles to fix gray line */
+#map-container {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#sidebar {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+
+#map {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+#search-results {
+  border: none; /* Remove the border */
+  box-shadow: none; /* Remove any shadow if present */
+}
+#search-results {
+  display: none;
+  border: none; /* Ensure no border is set by default */
+  background-color: transparent; /* Transparent background by default */
+  position: absolute; /* Adjust if necessary for placement */
+  z-index: 1000; /* Ensure it stays on top */
+}
