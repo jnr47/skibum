@@ -1,3 +1,69 @@
+Skibum.com Heatmap Project
+Project Overview
+This project aims to create an interactive Powder Alert Map (PAM) using Mapbox GL JS, which visualizes snowfall intensity across various ski resorts. The map includes features such as:
+
+Heatmap visualization of snowfall intensity (Low, Medium, High)
+Dynamic snowfall data updated via API
+Resort markers with detailed popups
+Search functionality for locating specific resorts
+
+
+Setup Instructions
+Prerequisites
+Ensure the following software is installed on your local machine:
+
+Node.js: Version 14 or later
+npm: Comes with Node.js installation
+Git: For cloning the repository
+Mapbox Account: Access token is required to use Mapbox GL JS
+API Access: RapidAPI account for the snowfall data API
+
+
+Getting Started
+Clone the Repository
+
+git clone https://github.com/YOUR_USERNAME/skibum.git
+cd skibum
+
+
+Install Dependencies Navigate to the root folder of the project and install any required Node.js dependencies:
+
+npm install
+
+
+Set Up Environment Variables Create a .env file in the project root and include the following:
+
+MAPBOX_ACCESS_TOKEN=your_mapbox_access_token
+RAPIDAPI_KEY=your_rapidapi_key
+
+Run the Local Server Start a simple HTTP server to serve the HTML files. You can use http-server or similar tools:
+
+npx http-server .
+
+The server will start at http://localhost:8080 or a similar port.
+
+Project Structure
+heatmap.html: Main HTML file for the Powder Alert Map.
+fetch_snowdata.js: Script to fetch snowfall data from the API and generate resorts_with_snowfall.json.
+style_heatmap.css: CSS file for customizing map and legend styles.
+resorts_with_snowfall.json: Snowfall data used to render the heatmap.
+resorts_heatmap_data.json: Base resort data with coordinates and names.
+
+
+Updating Snowfall Data
+Run the fetch_snowdata.js script to pull the latest snowfall data:
+
+node heatmap/fetch_snowdata.js
+This will update the resorts_with_snowfall.json file with the latest data.
+
+Refresh the map to reflect the updated snowfall data.
+
+Known Issues
+Heatmap colors may not match the intensity legend.
+Heatmap opacity changes inconsistently when zooming in/out.
+These issues are actively being debugged.
+
+
 Snowfall Heatmap Issue with Mapbox GL JS
 Overview
 This project uses Mapbox GL JS to create an interactive snowfall heatmap displaying ski resorts and their respective snow accumulation data. While most of the map functionality is working, there are significant issues related to the heatmap rendering, particularly with color-coding and opacity.
