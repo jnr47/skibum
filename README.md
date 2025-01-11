@@ -31,7 +31,7 @@ Opacity remains consistent across zoom levels.
 Resorts with low snowfall appear correctly on the map.
 The heatmap dynamically and accurately updates based on the provided JSON data.
 Environment
-Mapbox GL JS Version: 
+Mapbox GL JS Version: v2.15.0
 JavaScript Frameworks/Libraries Used: Plain JavaScript
 Data Source: resorts_with_snowfall.json
 Development Environment: Local Machine (Mac)
